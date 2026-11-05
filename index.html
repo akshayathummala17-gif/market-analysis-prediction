@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Temperature Analyzer & Converter | C Micro Project</title>
+    <meta name="description" content="College C Programming Micro Project: Smart Temperature Analyzer and Converter with Intelligent Alerts by Akshaya (URK26AI1052).">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Project Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-ambient-default">
+    <!-- Ambient Background Lighting Orbs for Reactive Theme (Req 16) -->
+    <div class="ambient-glow-container" aria-hidden="true">
+        <div class="ambient-orb orb-1"></div>
+        <div class="ambient-orb orb-2"></div>
+        <div class="ambient-orb orb-3"></div>
+        <div class="ambient-mesh-grid"></div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container" role="alert" aria-live="polite"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar-wrapper">
+        <nav class="navbar container">
+            <a href="#home" class="nav-brand">
+                <div class="brand-icon">
+                    <i class="fa-solid fa-temperature-half"></i>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-title">TEMP<span class="highlight-cyan">PULSE</span></span>
+                    <span class="brand-sub">SMART C ANALYZER</span>
+                </div>
+            </a>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#converter" class="nav-link"><i class="fa-solid fa-calculator"></i> Converter</a></li>
+                <li><a href="#history" class="nav-link"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
+                <li><a href="#stats" class="nav-link"><i class="fa-solid fa-chart-pie"></i> Statistics</a></li>
+            </ul>
+
+            <!-- Navbar Actions -->
+            <div class="nav-actions">
+                <!-- Theme Status Pill (Req 16 Indicator) -->
+                <div class="reactive-theme-badge" id="theme-status-indicator" title="Dynamic Whole Display Theme according to temperature">
+                    <span class="indicator-dot"></span>
+                    <span class="indicator-label" id="theme-status-text">Ambient: Normal</span>
+                </div>
+
+                <!-- Dark / Light Mode Toggle -->
+                <button id="theme-toggle-btn" class="icon-btn" aria-label="Toggle Light/Dark Theme" title="Toggle Light/Dark Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <!-- Audio SFX Toggle -->
+                <button id="sound-toggle-btn" class="icon-btn" aria-label="Toggle Audio Feedback" title="Toggle Sound Feedback">
+                    <i class="fa-solid fa-volume-high"></i>
+                </button>
+
+                <!-- Mobile Hamburger Toggle -->
+                <button id="mobile-menu-btn" class="icon-btn mobile-only" aria-label="Toggle Mobile Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===================================================================
+             SECTION 2: HOMEPAGE / HERO
+             =================================================================== -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-pulse"><i class="fa-solid fa-microchip"></i></span>
+                        <span>C PROGRAMMING MICRO PROJECT &bull; URK26AI1052</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        SMART TEMPERATURE <span class="gradient-text">ANALYZER</span>
+                    </h1>
+
+                    <p class="hero-tagline">
+                        &ldquo;Convert. Analyze. Monitor. Stay Informed.&rdquo;
+                    </p>
+
+                    <p class="hero-description">
+                        An intelligent temperature conversion system that converts temperature units, validates physical limits, analyzes temperature conditions and generates automatic alerts.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#converter" class="btn btn-primary btn-glow" id="hero-start-btn">
+                            <i class="fa-solid fa-bolt"></i> START ANALYZING
+                        </a>
+                        <a href="#history" class="btn btn-secondary">
+                            <i class="fa-solid fa-clock-rotate-left"></i> VIEW AUDIT TRAIL
+                        </a>
+                        <button class="btn btn-outline" id="hero-report-btn">
+                            <i class="fa-solid fa-file-arrow-down"></i> INSTANT REPORT
+                        </button>
+                    </div>
+
+                    <!-- Quick Spec Highlights -->
+                    <div class="hero-metrics-strip">
+                        <div class="metric-item">
+                            <span class="metric-val">3 Units</span>
+                            <span class="metric-label">C &bull; F &bull; K Standard</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <span class="metric-val">-273.15&deg;C</span>
+                            <span class="metric-label">Absolute Zero Limit</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <span class="metric-val">5 Bands</span>
+                            <span class="metric-label">Automated Alerts</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <span class="metric-val">Real-Time</span>
+                            <span class="metric-label">Smart Diagnostics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Graphic / Dynamic Thermometer Preview -->
+                <div class="hero-visual">
+                    <div class="glass-card hero-preview-card">
+                        <div class="card-header-compact">
+                            <span class="status-indicator-live">
+                                <span class="live-dot"></span> LIVE SYSTEM READY
+                            </span>
+                            <span class="tech-chip">C99 SPEC</span>
+                        </div>
+
+                        <div class="hero-gauge-wrapper">
+                            <div class="hero-dial">
+                                <div class="dial-center">
+                                    <span class="dial-temp" id="hero-dial-temp">25.0&deg;C</span>
+                                    <span class="dial-status" id="hero-dial-status">NORMAL</span>
+                                </div>
+                                <div class="dial-ring"></div>
+                            </div>
+                        </div>
+
+                        <div class="hero-quick-testers">
+                            <span class="quick-tester-label"><i class="fa-solid fa-wand-magic-sparkles"></i> Test Ambient Themes (Req 16):</span>
+                            <div class="quick-preset-chips">
+                                <button class="chip chip-blue" data-test-temp="-5" data-test-unit="C" title="Trigger Blue Display Theme">
+                                    <i class="fa-solid fa-snowflake"></i> Low (-5&deg;C &bull; Blue)
+                                </button>
+                                <button class="chip chip-mild" data-test-temp="20" data-test-unit="C" title="Trigger Mild Display Theme">
+                                    <i class="fa-solid fa-leaf"></i> Medium (20&deg;C &bull; Mild)
+                                </button>
+                                <button class="chip chip-red" data-test-temp="42" data-test-unit="C" title="Trigger Red Display Theme">
+                                    <i class="fa-solid fa-fire"></i> High (42&deg;C &bull; Red)
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================================
+             SECTION 3 & 4 & 5 & 6: CONVERTER, VALIDATION, ANALYSIS & ALERTS
+             =================================================================== -->
+        <section id="converter" class="section-wrapper converter-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-badge">INTERACTIVE CONTROL CENTER</div>
+                    <h2 class="section-title">Temperature Conversion & Smart Analysis</h2>
+                    <p class="section-subtitle">
+                        Select an input unit, enter any temperature value, and receive instant mathematical conversion, physical boundary validation, and intelligent alerts.
+                    </p>
+                </div>
+
+                <!-- Dynamic Requirement 16 Banner Notification -->
+                <div class="theme-announcer-banner" id="theme-announcer-banner">
+                    <div class="announcer-icon"><i class="fa-solid fa-palette"></i></div>
+                    <div class="announcer-text">
+                        <strong>Display Ambient Response:</strong> 
+                        <span id="theme-announcer-text">Default Dark Navy Monitoring Theme active. Convert a temperature to witness full display morphing (Blue for Low, Mild for Medium, Red for High).</span>
+                    </div>
+                </div>
+
+                <div class="converter-grid">
+                    <!-- Left Column: Input Form & Validation -->
+                    <div class="glass-card converter-form-card">
+                        <div class="card-top-bar">
+                            <div class="card-icon-badge">
+                                <i class="fa-solid fa-sliders"></i>
+                            </div>
+                            <div class="card-headings">
+                                <h3>Input Parameters</h3>
+                                <p>C-equivalent: <code>scanf("%f", &amp;temp)</code> &amp; validation</p>
+                            </div>
+                            <div class="quick-reset">
+                                <button id="btn-reset" class="btn-text-action" title="Reset all input fields">
+                                    <i class="fa-solid fa-rotate-left"></i> Reset
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Unit Selector Segmented Control -->
+                        <div class="form-group">
+                            <label class="form-label">
+                                <span>1. Select Input Unit</span>
+                                <span class="label-info">Switch Statement Logic</span>
+                            </label>
+                            <div class="unit-selector-pills" role="radiogroup" aria-label="Temperature Unit">
+                                <label class="unit-pill active" id="unit-label-c">
+                                    <input type="radio" name="temp-unit" value="C" checked>
+                                    <span class="pill-sym">&deg;C</span>
+                                    <span class="pill-name">Celsius</span>
+                                </label>
+                                <label class="unit-pill" id="unit-label-f">
+                                    <input type="radio" name="temp-unit" value="F">
+                                    <span class="pill-sym">&deg;F</span>
+                                    <span class="pill-name">Fahrenheit</span>
+                                </label>
+                                <label class="unit-pill" id="unit-label-k">
+                                    <input type="radio" name="temp-unit" value="K">
+                                    <span class="pill-sym">K</span>
+                                    <span class="pill-name">Kelvin</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Temperature Numeric Input -->
+                        <div class="form-group">
+                            <div class="label-flex">
+                                <label for="temp-input" class="form-label">2. Enter Temperature Value</label>
+                                <span class="physical-limit-hint" id="limit-hint">
+                                    Min Limit: <strong id="limit-val">-273.15 &deg;C</strong>
+                                </span>
+                            </div>
+                            <div class="input-container">
+                                <div class="input-icon-prefix">
+                                    <i class="fa-solid fa-temperature-three-quarters"></i>
+                                </div>
+                                <input 
+                                    type="number" 
+                                    id="temp-input" 
+                                    class="modern-input" 
+                                    placeholder="e.g. 25.0" 
+                                    step="any"
+                                    autocomplete="off"
+                                    aria-describedby="validation-msg-box"
+                                >
+                                <span class="input-unit-suffix" id="current-unit-display">&deg;C</span>
+                                <button class="clear-input-btn" id="btn-clear-input" aria-label="Clear Input" title="Clear input">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Smart Input Validation Message Box (Req 4) -->
+                        <div id="validation-msg-box" class="validation-feedback-box hidden" role="alert">
+                            <div class="validation-icon">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                            </div>
+                            <div class="validation-content">
+                                <div class="validation-title" id="val-error-title">INVALID TEMPERATURE!</div>
+                                <div class="validation-desc" id="val-error-desc">Temperature cannot be below absolute zero.</div>
+                            </div>
+                        </div>
+
+                        <!-- Quick Scientific Benchmark Presets -->
+                        <div class="form-group">
+                            <label class="form-label-sm">
+                                <i class="fa-solid fa-bookmark"></i> Quick Scientific Presets:
+                            </label>
+                            <div class="preset-buttons-row">
+                                <button type="button" class="preset-btn" data-preset="-273.15" data-unit="C" title="Theoretical minimum temperature">
+                                    Absolute Zero (-273.15&deg;C)
+                                </button>
+                                <button type="button" class="preset-btn" data-preset="0" data-unit="C" title="Water freezing point">
+                                    Water Freezes (0&deg;C)
+                                </button>
+                                <button type="button" class="preset-btn" data-preset="21" data-unit="C" title="Comfortable room environment">
+                                    Room Temp (21&deg;C)
+                                </button>
+                                <button type="button" class="preset-btn" data-preset="37" data-unit="C" title="Average human body temperature">
+                                    Body Temp (37&deg;C)
+                                </button>
+                                <button type="button" class="preset-btn" data-preset="100" data-unit="C" title="Standard atmospheric water boiling point">
+                                    Water Boils (100&deg;C)
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="converter-action-buttons">
+                            <button id="btn-convert" class="btn btn-primary btn-full btn-glow">
+                                <i class="fa-solid fa-bolt-lightning"></i> CONVERT &amp; ANALYZE
+                            </button>
+                            <button id="btn-random-test" class="btn btn-secondary" title="Try a random realistic temperature">
+                                <i class="fa-solid fa-shuffle"></i> Random Sample
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Center & Right Column: Animated Thermometer & Real-time Visualizer -->
+                    <div class="glass-card thermometer-visual-card">
+                        <div class="card-top-bar">
+                            <div class="card-icon-badge">
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </div>
+                            <div class="card-headings">
+                                <h3>Animated Thermometer</h3>
+                                <p>Dynamic mercury level &amp; thermal scale</p>
+                            </div>
+                        </div>
+
+                        <div class="thermometer-stage">
+                            <!-- SVG / CSS Physical Thermometer -->
+                            <div class="physical-thermometer" id="physical-thermometer">
+                                <div class="thermo-scale">
+                                    <div class="scale-mark" style="bottom: 95%;"><span>100&deg;C &bull; Steam</span></div>
+                                    <div class="scale-mark" style="bottom: 75%;"><span>50&deg;C &bull; Scorching</span></div>
+                                    <div class="scale-mark" style="bottom: 62%;"><span>37&deg;C &bull; Human</span></div>
+                                    <div class="scale-mark" style="bottom: 46%;"><span>21&deg;C &bull; Room</span></div>
+                                    <div class="scale-mark" style="bottom: 25%;"><span>0&deg;C &bull; Ice</span></div>
+                                    <div class="scale-mark" style="bottom: 5%;"><span>-50&deg;C &bull; Polar</span></div>
+                                </div>
+                                <div class="thermo-glass-tube">
+                                    <div class="mercury-column" id="mercury-column" style="height: 46%;">
+                                        <div class="mercury-surface"></div>
+                                        <div class="mercury-shimmer"></div>
+                                    </div>
+                                </div>
+                                <div class="thermo-bulb" id="thermo-bulb">
+                                    <div class="bulb-reflection"></div>
+                                </div>
+                            </div>
+
+                            <!-- Live Digital Readout Pane -->
+                            <div class="live-readout-pane">
+                                <div class="readout-label">CURRENT READING</div>
+                                <div class="readout-value-hero" id="readout-hero-val">25.00 <span class="readout-unit">&deg;C</span></div>
+                                <div class="readout-equiv-pill" id="readout-equiv-str">77.00 &deg;F &bull; 298.15 K</div>
+                                
+                                <!-- Category Badge (Req 5) -->
+                                <div class="current-category-card" id="current-category-card">
+                                    <div class="cat-pill" id="live-cat-pill">
+                                        <i class="fa-solid fa-circle-check"></i> <span id="live-cat-name">Normal</span>
+                                    </div>
+                                    <div class="cat-range-detail" id="live-cat-detail">
+                                        Range: Above 15&deg;C to 25&deg;C
+                                    </div>
+                                </div>
+
+                                <!-- Ambient Display Mode Indicator -->
+                                <div class="ambient-mode-status" id="ambient-mode-box">
+                                    <span class="ambient-pill-dot"></span>
+                                    <span id="ambient-mode-text">Display Mode: Mild Comfortable (Medium)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===============================================================
+                     RESULTS DISPLAY: CONVERTED UNITS & INTELLIGENT ALERTS
+                     =============================================================== -->
+                <div class="results-dashboard-wrapper" id="results-dashboard">
+                    <!-- Converted Results in All Three Units (Req 3) -->
+                    <div class="converted-units-row">
+                        <!-- Celsius Card -->
+                        <div class="glass-card result-unit-card unit-celsius">
+                            <div class="unit-card-header">
+                                <span class="unit-chip">&deg;C</span>
+                                <span class="unit-title">Celsius</span>
+                                <i class="fa-solid fa-snowflake card-corner-icon"></i>
+                            </div>
+                            <div class="unit-val-display" id="res-val-c">25.00 &deg;C</div>
+                            <div class="unit-formula-tag">
+                                <i class="fa-solid fa-square-root-variable"></i> Standard Metric Scale
+                            </div>
+                        </div>
+
+                        <!-- Fahrenheit Card -->
+                        <div class="glass-card result-unit-card unit-fahrenheit">
+                            <div class="unit-card-header">
+                                <span class="unit-chip">&deg;F</span>
+                                <span class="unit-title">Fahrenheit</span>
+                                <i class="fa-solid fa-fire-burner card-corner-icon"></i>
+                            </div>
+                            <div class="unit-val-display" id="res-val-f">77.00 &deg;F</div>
+                            <div class="unit-formula-tag">
+                                <i class="fa-solid fa-square-root-variable"></i> (C &times; 9/5) + 32
+                            </div>
+                        </div>
+
+                        <!-- Kelvin Card -->
+                        <div class="glass-card result-unit-card unit-kelvin">
+                            <div class="unit-card-header">
+                                <span class="unit-chip">K</span>
+                                <span class="unit-title">Kelvin</span>
+                                <i class="fa-solid fa-atom card-corner-icon"></i>
+                            </div>
+                            <div class="unit-val-display" id="res-val-k">298.15 K</div>
+                            <div class="unit-formula-tag">
+                                <i class="fa-solid fa-square-root-variable"></i> C + 273.15 (SI Unit)
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Intelligent Alert Banner (Req 6) -->
+                    <div class="glass-card intelligent-alert-card" id="intelligent-alert-card">
+                        <div class="alert-icon-wrapper" id="alert-icon-wrapper">
+                            <i class="fa-solid fa-shield-halved" id="alert-main-icon"></i>
+                        </div>
+                        <div class="alert-content-body">
+                            <div class="alert-meta-top">
+                                <span class="alert-badge-chip" id="alert-severity-badge">SYSTEM ALERT</span>
+                                <span class="alert-timestamp" id="alert-timestamp-display"><i class="fa-regular fa-clock"></i> Just now</span>
+                            </div>
+                            <h3 class="alert-headline" id="alert-headline-text">
+                                Temperature is in the normal project-defined range.
+                            </h3>
+                            <p class="alert-subtext" id="alert-subtext-detail">
+                                All monitored environmental metrics align with comfortable room specifications. No emergency heating or ventilation required.
+                            </p>
+                        </div>
+                        <div class="alert-action-side">
+                            <button class="btn btn-outline-sm" id="btn-save-reading">
+                                <i class="fa-regular fa-floppy-disk"></i> Save to Log
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================================
+             SECTION 7: TEMPERATURE HISTORY (Req 7)
+             =================================================================== -->
+        <section id="history" class="section-wrapper history-section">
+            <div class="container">
+                <div class="section-header-row">
+                    <div>
+                        <div class="section-badge">PERSISTENT AUDIT LOG</div>
+                        <h2 class="section-title">Recorded History &amp; Audit Trail</h2>
+                        <p class="section-subtitle">
+                            Persisted via browser <code>localStorage</code>. Preserves input unit, all converted scales, classification category, and alert status.
+                        </p>
+                    </div>
+                    <div class="history-controls">
+                        <button id="btn-clear-history" class="btn btn-danger-outline" title="Clear all recorded entries from local storage">
+                            <i class="fa-solid fa-trash-can"></i> Clear History
+                        </button>
+                        <button id="btn-download-report" class="btn btn-primary" title="Export formal audit report">
+                            <i class="fa-solid fa-file-arrow-down"></i> DOWNLOAD REPORT
+                        </button>
+                    </div>
+                </div>
+
+                <!-- History Table Card -->
+                <div class="glass-card table-glass-card">
+                    <div class="table-responsive">
+                        <table class="modern-table" id="history-table">
+                            <thead>
+                                <tr>
+                                    <th># ID</th>
+                                    <th>Timestamp</th>
+                                    <th>Entered Input</th>
+                                    <th>Celsius (&deg;C)</th>
+                                    <th>Fahrenheit (&deg;F)</th>
+                                    <th>Kelvin (K)</th>
+                                    <th>Category</th>
+                                    <th>Intelligent Alert</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="history-table-body">
+                                <!-- Populated dynamically by script.js -->
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Empty State Fallback -->
+                    <div id="history-empty-state" class="empty-state-pane hidden">
+                        <div class="empty-icon"><i class="fa-solid fa-box-open"></i></div>
+                        <h4>No Temperature Readings Recorded Yet</h4>
+                        <p>Perform your first conversion using the control center above to begin generating an audit trail.</p>
+                        <button class="btn btn-secondary-sm" onclick="document.getElementById('temp-input').focus()">
+                            <i class="fa-solid fa-plus"></i> Add First Reading
+                        </button>
+                    </div>
+
+                    <!-- Table Footer Note -->
+                    <div class="table-footer-bar">
+                        <span id="history-count-label"><i class="fa-solid fa-database"></i> Showing latest 5 readings</span>
+                        <div class="history-view-toggle">
+                            <label class="toggle-switch-label">
+                                <input type="checkbox" id="show-all-history-toggle">
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-text">Show All History</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================================
+             SECTION 8: TEMPERATURE STATISTICS & CHARTS (Req 8)
+             =================================================================== -->
+        <section id="stats" class="section-wrapper stats-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-badge">DATA ANALYTICS DASHBOARD</div>
+                    <h2 class="section-title">Statistical Metrics &amp; Visual Analytics</h2>
+                    <p class="section-subtitle">
+                        Aggregated analysis computed across all valid logged readings with dynamic Chart.js visualizations.
+                    </p>
+                </div>
+
+                <!-- 4 Key Stat Metric Cards -->
+                <div class="stats-metric-grid">
+                    <div class="glass-card metric-card">
+                        <div class="metric-card-icon icon-cyan">
+                            <i class="fa-solid fa-list-ol"></i>
+                        </div>
+                        <div class="metric-card-info">
+                            <div class="metric-num" id="stat-total-count">0</div>
+                            <div class="metric-name">Total Valid Readings</div>
+                            <div class="metric-sub">Validated against absolute zero</div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card metric-card">
+                        <div class="metric-card-icon icon-red">
+                            <i class="fa-solid fa-arrow-trend-up"></i>
+                        </div>
+                        <div class="metric-card-info">
+                            <div class="metric-num" id="stat-highest-temp">--</div>
+                            <div class="metric-name">Highest Recorded</div>
+                            <div class="metric-sub" id="stat-highest-sub">No data yet</div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card metric-card">
+                        <div class="metric-card-icon icon-blue">
+                            <i class="fa-solid fa-arrow-trend-down"></i>
+                        </div>
+                        <div class="metric-card-info">
+                            <div class="metric-num" id="stat-lowest-temp">--</div>
+                            <div class="metric-name">Lowest Recorded</div>
+                            <div class="metric-sub" id="stat-lowest-sub">No data yet</div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card metric-card">
+                        <div class="metric-card-icon icon-orange">
+                            <i class="fa-solid fa-calculator"></i>
+                        </div>
+                        <div class="metric-card-info">
+                            <div class="metric-num" id="stat-avg-temp">--</div>
+                            <div class="metric-name">Average Temperature</div>
+                            <div class="metric-sub" id="stat-avg-sub">Arithmetic Mean (&deg;C)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Row -->
+                <div class="stats-charts-grid">
+                    <!-- Category Distribution Doughnut Chart -->
+                    <div class="glass-card chart-card">
+                        <div class="card-top-bar">
+                            <div class="card-icon-badge">
+                                <i class="fa-solid fa-chart-pie"></i>
+                            </div>
+                            <div class="card-headings">
+                                <h3>Category Distribution</h3>
+                                <p>Freezing, Cold, Normal, Warm, and Hot breakdown</p>
+                            </div>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="categoryChart"></canvas>
+                        </div>
+                        <div class="chart-legend-custom" id="custom-chart-legend">
+                            <!-- Populated with color indicators -->
+                        </div>
+                    </div>
+
+                    <!-- Readings Chronological Trend Line Chart -->
+                    <div class="glass-card chart-card">
+                        <div class="card-top-bar">
+                            <div class="card-icon-badge">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <div class="card-headings">
+                                <h3>Temperature Trendline</h3>
+                                <p>Sequence of converted readings in Celsius (&deg;C)</p>
+                            </div>
+                        </div>
+                        <div class="chart-canvas-container">
+                            <canvas id="trendChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================================================
+             SECTION 9: DOWNLOAD REPORT MODAL & PREVIEW (Req 9)
+             =================================================================== -->
+        <section class="section-wrapper report-preview-section">
+            <div class="container">
+                <div class="glass-card report-cta-banner">
+                    <div class="report-cta-content">
+                        <div class="report-badge"><i class="fa-solid fa-file-contract"></i> EXPORT READY</div>
+                        <h3 class="report-cta-title">Official Micro Project Evaluation Report</h3>
+                        <p class="report-cta-desc">
+                            Export comprehensive documentation including student credentials, formulas, timestamped audit logs, converted values, and statistical summaries in printable lab format or raw CSV.
+                        </p>
+                    </div>
+                    <div class="report-cta-actions">
+                        <button class="btn btn-primary btn-lg" id="btn-open-report-modal">
+                            <i class="fa-solid fa-print"></i> Generate Printable Report
+                        </button>
+                        <button class="btn btn-secondary btn-lg" id="btn-export-csv">
+                            <i class="fa-solid fa-file-csv"></i> Download CSV Data
+                        </button>
+                        <button class="btn btn-outline btn-lg" id="btn-export-c-txt">
+                            <i class="fa-solid fa-file-lines"></i> Export C .txt Format
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- ===================================================================
+         PRINTABLE REPORT MODAL (Req 9)
+         =================================================================== -->
+    <div id="report-modal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-window glass-card">
+            <div class="modal-header">
+                <div class="modal-title-wrap">
+                    <i class="fa-solid fa-file-invoice"></i>
+                    <h3 id="modal-title">Comprehensive Technical Audit Report</h3>
+                </div>
+                <button class="icon-btn modal-close-btn" id="btn-close-modal" aria-label="Close Modal">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- Report Printable Body -->
+            <div class="modal-body-scrollable" id="printable-report-area">
+                <div class="official-report-sheet">
+                    <div class="report-org-header">
+                        <div class="org-brand">
+                            <h2>SMART TEMPERATURE ANALYZER &amp; CONVERTER</h2>
+                            <p class="org-sub">WITH INTELLIGENT ALERTS &bull; COLLEGE C PROGRAMMING MICRO PROJECT</p>
+                        </div>
+                        <div class="org-seal">
+                            <div class="seal-inner">CERTIFIED<br>C99 SPEC</div>
+                        </div>
+                    </div>
+
+                    <div class="report-meta-grid">
+                        <div class="meta-cell">
+                            <span class="meta-lbl">Student Name:</span>
+                            <span class="meta-val">Akshaya</span>
+                        </div>
+                        <div class="meta-cell">
+                            <span class="meta-lbl">Register Number:</span>
+                            <span class="meta-val">URK26AI1052</span>
+                        </div>
+                        <div class="meta-cell">
+                            <span class="meta-lbl">Report Generated:</span>
+                            <span class="meta-val" id="report-timestamp-val">2026-11-03 14:50:00</span>
+                        </div>
+                        <div class="meta-cell">
+                            <span class="meta-lbl">Course Outcomes:</span>
+                            <span class="meta-val">CO1, CO2, CO4, CO5</span>
+                        </div>
+                    </div>
+
+                    <div class="report-divider"></div>
+
+                    <h4>1. Summary Statistics</h4>
+                    <div class="report-stats-boxes">
+                        <div class="r-stat-box">
+                            <span class="r-lbl">Total Valid Readings</span>
+                            <span class="r-val" id="r-stat-total">0</span>
+                        </div>
+                        <div class="r-stat-box">
+                            <span class="r-lbl">Maximum Recorded</span>
+                            <span class="r-val" id="r-stat-max">--</span>
+                        </div>
+                        <div class="r-stat-box">
+                            <span class="r-lbl">Minimum Recorded</span>
+                            <span class="r-val" id="r-stat-min">--</span>
+                        </div>
+                        <div class="r-stat-box">
+                            <span class="r-lbl">Mean Average</span>
+                            <span class="r-val" id="r-stat-avg">--</span>
+                        </div>
+                    </div>
+
+                    <h4>2. Detailed Temperature Log &amp; Analysis Trail</h4>
+                    <table class="report-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Timestamp</th>
+                                <th>Input</th>
+                                <th>Celsius</th>
+                                <th>Fahrenheit</th>
+                                <th>Kelvin</th>
+                                <th>Category</th>
+                                <th>Alert Issued</th>
+                            </tr>
+                        </thead>
+                        <tbody id="report-table-body">
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+
+                    <div class="report-divider"></div>
+
+                    <div class="report-sign-row">
+                        <div class="sign-block">
+                            <div class="sign-line"></div>
+                            <span>Student Signature<br>(Akshaya - URK26AI1052)</span>
+                        </div>
+                        <div class="sign-block">
+                            <div class="sign-line"></div>
+                            <span>Faculty Evaluator<br>Dept. of Computer Science &amp; AI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="btn-modal-cancel">Close</button>
+                <button class="btn btn-primary" id="btn-print-action">
+                    <i class="fa-solid fa-print"></i> Print / Save as PDF
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================================================
+         FOOTER
+         =================================================================== -->
+    <footer class="app-footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <div class="footer-brand">
+                    <i class="fa-solid fa-temperature-half"></i>
+                    <span>SMART TEMPERATURE ANALYZER</span>
+                </div>
+                <p class="footer-desc">
+                    A comprehensive college C programming micro project designed to convert, validate, analyze, and alert based on thermodynamic principles.
+                </p>
+                <div class="student-credit-badge">
+                    <span>Developer: <strong>Akshaya</strong></span>
+                    <span>&bull;</span>
+                    <span>Roll No: <strong>URK26AI1052</strong></span>
+                </div>
+            </div>
+
+            <div class="footer-links-group">
+                <h5>Navigation</h5>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#converter">Converter</a></li>
+                    <li><a href="#history">Audit Trail</a></li>
+                    <li><a href="#stats">Statistics</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-group">
+                <h5>Features</h5>
+                <ul>
+                    <li><a href="#converter">Scale Converter</a></li>
+                    <li><a href="#converter">Animated Thermometer</a></li>
+                    <li><a href="#history">Audit Trail Log</a></li>
+                    <li><a href="#stats">Visual Statistics</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-group">
+                <h5>Evaluation Tools</h5>
+                <ul>
+                    <li><a href="javascript:void(0)" id="footer-link-report">Download Report</a></li>
+                    <li><a href="javascript:void(0)" id="footer-link-sample">Load Benchmark Data</a></li>
+                    <li><a href="javascript:void(0)" id="footer-link-reset">Reset History</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom-bar">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2026 Akshaya (URK26AI1052). College C Programming Micro Project. All rights reserved.</p>
+                <div class="footer-tags">
+                    <span>Standard C99</span>
+                    <span>&bull;</span>
+                    <span>Pure Client-Side</span>
+                    <span>&bull;</span>
+                    <span>Zero Backend Needed</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Application Script -->
+    <script src="script.js"></script>
+</body>
+</html>
+

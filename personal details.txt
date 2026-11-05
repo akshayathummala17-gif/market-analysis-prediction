@@ -1,0 +1,16 @@
+STUDENT AND PROJECT DETAILS
+===========================
+Student Name   : Akshaya
+Register Number: URK26AI1052
+Department     : Artificial Intelligence and Data Science
+Course         : C Programming and Problem Solving
+Project Title  : SMART TEMPERATURE ANALYZER & CONVERTER WITH INTELLIGENT ALERTS
+Course Outcomes: CO1, CO2, CO4, CO5
+Files Included :
+  1. index.html             - Modern responsive interactive dashboard
+  2. style.css              - Glassmorphic UI with dynamic display color morphing (Req 16)
+  3. script.js              - Mathematical conversions, validation, Chart.js analytics & storage
+  4. temperature_analyzer.c - Full C program with functions, structs, pointers, malloc, file I/O
+  5. temp_analyzer.exe      - Compiled executable ready to run
+  6. README.md              - Complete academic documentation & viva guide
+

@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MarketPulse AI | Market Product Analysis & Prediction System</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  
+  <!-- Application CSS -->
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body class="theme-dark">
+  <div class="app-container">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="brand-logo">
+          <div class="logo-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <div class="brand-text">
+            <h2>MarketPulse <span>AI</span></h2>
+            <p>Intelligence & Forecasting</p>
+          </div>
+        </div>
+        <button class="mobile-close-btn" id="mobileSidebarClose"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-label">MAIN MENU</div>
+        <button class="nav-item active" data-view="home">
+          <i class="fa-solid fa-house"></i>
+          <span>Home Dashboard</span>
+        </button>
+        <button class="nav-item" data-view="market">
+          <i class="fa-solid fa-earth-americas"></i>
+          <span>Market Overview</span>
+        </button>
+        <button class="nav-item" data-view="products">
+          <i class="fa-solid fa-box-open"></i>
+          <span>Product Analysis</span>
+        </button>
+        <button class="nav-item highlight" data-view="prediction">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <span>AI Prediction Engine</span>
+        </button>
+
+        <div class="nav-section-label">MACHINE LEARNING</div>
+        <button class="nav-item" data-view="models">
+          <i class="fa-solid fa-microchip"></i>
+          <span>Model Performance</span>
+        </button>
+        <button class="nav-item" data-view="dataset">
+          <i class="fa-solid fa-database"></i>
+          <span>Dataset Management</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="dataset-status-card">
+          <div class="status-indicator-dot" id="sidebarStatusDot"></div>
+          <div class="status-info">
+            <span class="status-title" id="sidebarDataStatus">Sample Dataset</span>
+            <span class="status-subtitle" id="sidebarTotalRecords">720 Records</span>
+          </div>
+        </div>
+        <div class="user-quick-info">
+          <small><i class="fa-solid fa-shield-halved"></i> ML Model v2.4 (Scikit-Learn)</small>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Wrapper -->
+    <main class="main-wrapper">
+      
+      <!-- Top Header Bar -->
+      <header class="top-header">
+        <div class="header-left">
+          <button class="sidebar-toggle" id="sidebarToggleBtn" title="Toggle Sidebar">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="view-title-block">
+            <h1 id="currentViewTitle">Home Dashboard</h1>
+            <p id="currentViewSubtitle">Executive intelligence overview of product demand, sales & price dynamics</p>
+          </div>
+        </div>
+
+        <div class="header-right">
+          <div class="header-badge" id="bestModelBadge">
+            <i class="fa-solid fa-award"></i>
+            <span>Best Model: Random Forest (92.5% R²)</span>
+          </div>
+          <button class="btn btn-secondary btn-sm" id="quickRetrainBtn" title="Retrain ML Models">
+            <i class="fa-solid fa-arrows-rotate"></i>
+            <span>Retrain Models</span>
+          </button>
+          <button class="btn btn-primary btn-sm" id="quickPredictBtn">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <span>Run Prediction</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Views Container -->
+      <div class="views-viewport">
+        
+        <!-- ============================================== -->
+        <!-- VIEW 1: HOME DASHBOARD                         -->
+        <!-- ============================================== -->
+        <section class="view-pane active" id="view-home">
+          
+          <!-- Hero Banner -->
+          <div class="hero-banner">
+            <div class="hero-content">
+              <div class="hero-tag"><i class="fa-solid fa-brain"></i> Machine Learning Powered Decision Support</div>
+              <h2>AI Market Product Analysis & Demand Forecasting</h2>
+              <p>Harness predictive machine learning models to anticipate consumer demand, optimize pricing elasticity, uncover competitor advantages, and maximize sales revenue.</p>
+              <div class="hero-actions">
+                <button class="btn btn-primary" onclick="app.switchView('prediction')">
+                  <i class="fa-solid fa-chart-line"></i> Predict Product Demand
+                </button>
+                <button class="btn btn-outline" onclick="app.switchView('market')">
+                  <i class="fa-solid fa-compass"></i> Explore Market Insights
+                </button>
+                <button class="btn btn-outline" onclick="app.switchView('dataset')">
+                  <i class="fa-solid fa-file-arrow-up"></i> Upload Custom Dataset
+                </button>
+              </div>
+            </div>
+            <div class="hero-badge-stat">
+              <div class="hero-stat-box">
+                <span class="stat-number" id="heroRevenue">₹25.08 Cr</span>
+                <span class="stat-caption">Total Tracked Market Revenue</span>
+              </div>
+              <div class="hero-stat-box">
+                <span class="stat-number" id="heroAccuracy">92.5%</span>
+                <span class="stat-caption">Demand Predictor R² Score</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Top Metric Cards -->
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <div class="metric-icon bg-indigo"><i class="fa-solid fa-box"></i></div>
+              <div class="metric-data">
+                <span class="metric-label">Total Products Tracked</span>
+                <h3 class="metric-value" id="kpiTotalProducts">--</h3>
+                <span class="metric-sub" id="kpiTotalCategories"><i class="fa-solid fa-layer-group"></i> Across 5 Categories</span>
+              </div>
+            </div>
+
+            <div class="metric-card">
+              <div class="metric-icon bg-emerald"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+              <div class="metric-data">
+                <span class="metric-label">Total Market Sales</span>
+                <h3 class="metric-value" id="kpiTotalRevenue">--</h3>
+                <span class="metric-sub text-emerald"><i class="fa-solid fa-arrow-trend-up"></i> Healthy Sales Volume</span>
+              </div>
+            </div>
+
+            <div class="metric-card">
+              <div class="metric-icon bg-cyan"><i class="fa-solid fa-cubes-stacked"></i></div>
+              <div class="metric-data">
+                <span class="metric-label">Avg. Monthly Demand</span>
+                <h3 class="metric-value" id="kpiAvgDemand">--</h3>
+                <span class="metric-sub"><i class="fa-solid fa-chart-simple"></i> Units / Product</span>
+              </div>
+            </div>
+
+            <div class="metric-card">
+              <div class="metric-icon bg-amber"><i class="fa-solid fa-star"></i></div>
+              <div class="metric-data">
+                <span class="metric-label">Avg. Customer Rating</span>
+                <h3 class="metric-value" id="kpiAvgRating">--</h3>
+                <span class="metric-sub text-amber"><i class="fa-solid fa-thumbs-up"></i> High Consumer Sentiment</span>
+              </div>
+            </div>
+
+            <div class="metric-card">
+              <div class="metric-icon bg-purple"><i class="fa-solid fa-robot"></i></div>
+              <div class="metric-data">
+                <span class="metric-label">Best ML Model R²</span>
+                <h3 class="metric-value" id="kpiModelR2">--%</h3>
+                <span class="metric-sub text-purple"><i class="fa-solid fa-check-double"></i> Random Forest Regressor</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Home Two-Column Grid -->
+          <div class="content-grid-2">
+            <!-- Market Sales & Demand Trend Chart -->
+            <div class="dashboard-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title"><i class="fa-solid fa-chart-area"></i> Market Sales & Demand Trajectory</h3>
+                  <p class="card-subtitle">Monthly aggregate units demand vs realized sales volume</p>
+                </div>
+                <div class="card-badge"><span class="badge badge-success">Historical</span></div>
+              </div>
+              <div class="card-body">
+                <div class="chart-container" style="height: 300px;">
+                  <canvas id="homeTimelineChart"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <!-- Top Revenue Driving Products -->
+            <div class="dashboard-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title"><i class="fa-solid fa-trophy"></i> Top Performing Products</h3>
+                  <p class="card-subtitle">Highest cumulative gross sales revenue contributors</p>
+                </div>
+                <button class="btn btn-outline btn-xs" onclick="app.switchView('products')">View All</button>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="data-table" id="homeTopProductsTable">
+                    <thead>
+                      <tr>
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Avg. Price</th>
+                        <th>Rating</th>
+                        <th>Gross Revenue</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- Dynamic rows -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Action Shortcuts Bar -->
+          <div class="dashboard-card mt-4">
+            <div class="card-header">
+              <h3 class="card-title"><i class="fa-solid fa-bolt"></i> Quick Workflow Shortcuts</h3>
+            </div>
+            <div class="card-body">
+              <div class="shortcuts-grid">
+                <div class="shortcut-box" onclick="app.switchView('prediction')">
+                  <i class="fa-solid fa-calculator"></i>
+                  <h4>Predict Product Performance</h4>
+                  <p>Forecast demand, optimal price & market revenue for any product</p>
+                </div>
+                <div class="shortcut-box" onclick="app.switchView('market')">
+                  <i class="fa-solid fa-chart-pie"></i>
+                  <h4>Analyze Category Breakdown</h4>
+                  <p>Evaluate revenue share and growth across Electronics, Fashion, etc.</p>
+                </div>
+                <div class="shortcut-box" onclick="app.switchView('models')">
+                  <i class="fa-solid fa-scale-balanced"></i>
+                  <h4>Compare ML Models</h4>
+                  <p>Review MAE, MSE, RMSE and R² for Linear Regression vs Random Forest</p>
+                </div>
+                <div class="shortcut-box" onclick="app.switchView('dataset')">
+                  <i class="fa-solid fa-cloud-arrow-up"></i>
+                  <h4>Import Your Dataset</h4>
+                  <p>Upload your company's CSV or Excel spreadsheet to retrain models</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================== -->
+        <!-- VIEW 2: MARKET OVERVIEW                        -->
+        <!-- ============================================== -->
+        <section class="view-pane" id="view-market">
+          
+          <div class="section-heading">
+            <div>
+              <h2>Market Intelligence & Category Dynamics</h2>
+              <p>Macro analysis of product categories, revenue generation, and market sentiment</p>
+            </div>
+          </div>
+
+          <!-- Category Comparison & Market Trend Sentiment -->
+          <div class="content-grid-2">
+            <!-- Category Revenue Breakdown -->
+            <div class="dashboard-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title"><i class="fa-solid fa-chart-pie"></i> Revenue Share by Category</h3>
+                  <p class="card-subtitle">Contribution of each product segment to market turnover</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="chart-container" style="height: 300px;">
+                  <canvas id="marketCategoryChart"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <!-- Market Trend Sentiment Donut -->
+            <div class="dashboard-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title"><i class="fa-solid fa-arrows-split-up-and-left"></i> Market Trend Distribution</h3>
+                  <p class="card-subtitle">Proportion of products in Increasing vs Stable vs Declining trends</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="chart-container" style="height: 300px;">
+                  <canvas id="marketTrendDonutChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category Performance Metrics Table -->
+          <div class="dashboard-card mt-4">
+            <div class="card-header">
+              <h3 class="card-title"><i class="fa-solid fa-table-list"></i> Category Performance Benchmarks</h3>
+              <p class="card-subtitle">Summary metrics aggregated across entire historical timeline</p>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="data-table" id="marketCategoryTable">
+                  <thead>
+                    <tr>
+                      <th>Product Category</th>
+                      <th>Active Products</th>
+                      <th>Avg. Product Price</th>
+                      <th>Avg. Monthly Demand</th>
+                      <th>Total Units Sold</th>
+                      <th>Total Category Revenue</th>
+                      <th>Avg. Rating</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Injected dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Monthly Historical Trend -->
+          <div class="dashboard-card mt-4">
+            <div class="card-header">
+              <h3 class="card-title"><i class="fa-solid fa-chart-line"></i> Historical Monthly Revenue Evolution</h3>
+              <p class="card-subtitle">Track sales momentum and seasonal peaks across Q4 festival periods</p>
+            </div>
+            <div class="card-body">
+              <div class="chart-container" style="height: 320px;">
+                <canvas id="marketMonthlyRevenueChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================== -->
+        <!-- VIEW 3: PRODUCT ANALYSIS                       -->
+        <!-- ============================================== -->
+        <section class="view-pane" id="view-products">
+          
+          <div class="section-heading">
+            <div>
+              <h2>Product Deep Dive & Exploratory Analysis</h2>
+              <p>Explore price elasticity, customer rating correlations, and competitor pricing relationships</p>
+            </div>
+          </div>
+
+          <!-- Product Selector Banner -->
+          <div class="dashboard-card mb-4">
+            <div class="card-body">
+              <div class="filter-controls-row">
+                <div class="form-group flex-grow">
+                  <label for="productAnalysisSelect"><i class="fa-solid fa-magnifying-glass"></i> Select Product to Inspect:</label>
+                  <select id="productAnalysisSelect" class="form-control">
+                    <option value="">-- Choose a product from dataset --</option>
+                  </select>
+                </div>
+                <button class="btn btn-primary mt-auto" id="btnInspectProduct">
+                  <i class="fa-solid fa-magnifying-glass-chart"></i> Inspect Details
+                </button>
+                <button class="btn btn-secondary mt-auto" id="btnPredictFromSelected">
+                  <i class="fa-solid fa-wand-magic-sparkles"></i> Predict for This Product
+                </button>
+              </div>
+
+              <!-- Product Inspection Detail Card (Shown when selected) -->
+              <div id="productDetailCard" class="product-highlight-box mt-3" style="display: none;">
+                <div class="highlight-header">
+                  <div>
+                    <h3 id="inspectName">Product Name</h3>
+                    <span class="badge badge-primary" id="inspectCategory">Category</span>
+                  </div>
+                  <div class="highlight-price">
+                    <span class="price-caption">Current Base Price</span>
+                    <h2 id="inspectPrice">₹0</h2>
+                  </div>
+                </div>
+                <div class="highlight-stats-grid">
+                  <div class="h-stat">
+                    <span>Competitor Price</span>
+                    <strong id="inspectCompPrice">₹0</strong>
+                  </div>
+                  <div class="h-stat">
+                    <span>Customer Rating</span>
+                    <strong id="inspectRating">0.0 ★</strong>
+                  </div>
+                  <div class="h-stat">
+                    <span>Avg Monthly Demand</span>
+                    <strong id="inspectDemand">0 units</strong>
+                  </div>
+                  <div class="h-stat">
+                    <span>Total Units Sold</span>
+                    <strong id="inspectSales">0 units</strong>
+                  </div>
+                  <div class="h-stat">
+                    <span>Gross Revenue</span>
+                    <strong id="inspectRevenue" class="text-emerald">₹0</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Exploratory Charts: Price vs Demand Elasticity & Ratings vs Sales -->
+          <div class="content-grid-2">
+            <!-- Price vs Demand Scatter -->
+            <div class="dashboard-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title"><i class="fa-solid fa-bezier-curve"></i> Price Elasticity of Demand</h3>
+                  <p class="card-subtitle">Correlation between product unit price and market demand</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="chart-container" style="height: 320px;">
+                  <canvas id="chartPriceVsDemand"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <!-- Customer Rating vs Sales Volume Scatter -->
+            <div class="dashboard-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title"><i class="fa-solid fa-star-half-stroke"></i> Rating Impact on Sales Units</h3>
+                  <p class="card-subtitle">Relationship between customer review ratings and conversion volume</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="chart-container" style="height: 320px;">
+                  <canvas id="chartRatingVsSales"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Statistical Correlation Heatmap Table & Insights -->
+          <div class="dashboard-card mt-4">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title"><i class="fa-solid fa-diagram-project"></i> Pearson Correlation Matrix & Key Insights</h3>
+                <p class="card-subtitle">Empirical statistical dependencies between market variables (-1.0 to +1.0)</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="correlation-wrapper">
+                <div class="table-responsive">
+                  <table class="correlation-table" id="correlationTable">
+                    <!-- Populated dynamically -->
+                  </table>
+                </div>
+
+                <div class="correlation-insights" id="correlationInsightsList">
+                  <!-- Injected insights -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================== -->
+        <!-- VIEW 4: AI PREDICTION DASHBOARD                -->
+        <!-- ============================================== -->
+        <section class="view-pane" id="view-prediction">
+          
+          <div class="section-heading">
+            <div>
+              <h2>AI Product Demand & Performance Prediction Engine</h2>
+              <p>Configure product attributes, pricing scenarios, and seasonal conditions to generate future forecasts</p>
+            </div>
+          </div>
+
+          <div class="prediction-layout">
+            
+            <!-- Left Column: Input Form -->
+            <div class="prediction-form-card">
+              <div class="card-header">
+                <h3 class="card-title"><i class="fa-solid fa-sliders"></i> Prediction Parameters</h3>
+                <span class="badge badge-primary">Scenario Builder</span>
+              </div>
+              
+              <div class="card-body">
+                <form id="predictionForm">
+                  
+                  <!-- Quick Prefill from Catalog -->
+                  <div class="form-group mb-3">
+                    <label for="predPrefillSelect">
+                      <i class="fa-solid fa-wand-magic"></i> Quick Prefill from Existing Product:
+                    </label>
+                    <select id="predPrefillSelect" class="form-control">
+                      <option value="">-- Choose to auto-fill or enter custom below --</option>
+                    </select>
+                  </div>
+
+                  <hr class="form-divider">
+
+                  <!-- Product Name -->
+                  <div class="form-group mb-3">
+                    <label for="predProductName"><i class="fa-solid fa-tag"></i> Product Name:</label>
+                    <input type="text" id="predProductName" class="form-control" placeholder="e.g. Smart Wireless Earbuds Pro" required>
+                  </div>
+
+                  <!-- Category & Month/Season -->
+                  <div class="form-row mb-3">
+                    <div class="form-group col-half">
+                      <label for="predCategory"><i class="fa-solid fa-layer-group"></i> Category:</label>
+                      <select id="predCategory" class="form-control" required>
+                        <option value="Electronics">Electronics</option>
+                        <option value="Fashion">Fashion</option>
+                        <option value="Home & Kitchen">Home & Kitchen</option>
+                        <option value="Health & Personal Care">Health & Personal Care</option>
+                        <option value="Sports & Fitness">Sports & Fitness</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group col-half">
+                      <label for="predMonth"><i class="fa-solid fa-calendar-days"></i> Target Month:</label>
+                      <select id="predMonth" class="form-control">
+                        <option value="1">January (New Year)</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May (Summer)</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October (Festival Season)</option>
+                        <option value="11" selected>November (Peak Season)</option>
+                        <option value="12">December (Year End)</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- Price & Competitor Price -->
+                  <div class="form-row mb-3">
+                    <div class="form-group col-half">
+                      <label for="predPrice"><i class="fa-solid fa-indian-rupee-sign"></i> Product Price (₹):</label>
+                      <input type="number" id="predPrice" class="form-control" min="10" step="10" placeholder="e.g. 2999" required>
+                    </div>
+
+                    <div class="form-group col-half">
+                      <label for="predCompPrice"><i class="fa-solid fa-tag"></i> Competitor Price (₹):</label>
+                      <input type="number" id="predCompPrice" class="form-control" min="10" step="10" placeholder="e.g. 3299" required>
+                    </div>
+                  </div>
+
+                  <!-- Customer Rating & Market Trend Assumption -->
+                  <div class="form-row mb-3">
+                    <div class="form-group col-half">
+                      <label for="predRating">
+                        <i class="fa-solid fa-star"></i> Expected Rating: <span id="ratingDisplayVal" class="text-amber">4.4 ★</span>
+                      </label>
+                      <input type="range" id="predRating" class="form-range" min="3.0" max="5.0" step="0.1" value="4.4">
+                    </div>
+
+                    <div class="form-group col-half">
+                      <label for="predTrend"><i class="fa-solid fa-arrow-trend-up"></i> Market Trend Bias:</label>
+                      <select id="predTrend" class="form-control">
+                        <option value="Increasing">Increasing (Expansion)</option>
+                        <option value="Stable" selected>Stable (Steady State)</option>
+                        <option value="Declining">Declining (Contracting)</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- ML Model Choice -->
+                  <div class="form-group mb-4">
+                    <label for="predModel"><i class="fa-solid fa-microchip"></i> Machine Learning Algorithm:</label>
+                    <select id="predModel" class="form-control">
+                      <option value="">Auto-Select Best Model (Recommended: Random Forest)</option>
+                      <option value="Random Forest">Random Forest Regressor (Ensemble)</option>
+                      <option value="Decision Tree">Decision Tree Regressor (Rule-Based)</option>
+                      <option value="Linear Regression">Linear Regression (Parametric Baseline)</option>
+                    </select>
+                    <small class="form-text-muted">Auto-select evaluates validation R² score to ensure highest prediction fidelity.</small>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary btn-block btn-lg" id="btnRunPrediction">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> Generate AI Prediction
+                  </button>
+
+                </form>
+              </div>
+            </div>
+
+            <!-- Right Column: Prediction Output Dashboard -->
+            <div class="prediction-results-card">
+              
+              <!-- Placeholder State (Before prediction) -->
+              <div id="predictionPlaceholder" class="prediction-placeholder">
+                <div class="placeholder-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>Awaiting Prediction Parameters</h3>
+                <p>Select a product from the catalog or input custom market values on the left, then click <strong>"Generate AI Prediction"</strong> to view expected demand, sales, revenue & price optimization.</p>
+              </div>
+
+              <!-- Output Container (Populated after prediction) -->
+              <div id="predictionOutputContainer" style="display: none;">
+                
+                <!-- Result Header -->
+                <div class="result-header-card">
+                  <div>
+                    <span class="result-product-label">PREDICTION RESULTS FOR</span>
+                    <h2 class="result-product-name" id="resProdName">Product A</h2>
+                    <div class="result-badges-row">
+                      <span class="badge badge-primary" id="resCategory">Category</span>
+                      <span class="badge" id="resTrendBadge">Increasing</span>
+                      <span class="badge" id="resTierBadge">Top Performer</span>
+                    </div>
+                  </div>
+                  <div class="result-meta-box">
+                    <span class="meta-label">Model Used</span>
+                    <strong class="meta-value text-indigo" id="resModelUsed">Random Forest</strong>
+                    <span class="meta-sub" id="resModelAccuracy">R² Score: 92.5%</span>
+                  </div>
+                </div>
+
+                <!-- Primary Prediction KPI Cards -->
+                <div class="result-kpis-grid">
+                  <div class="result-kpi-card kpi-emerald">
+                    <div class="r-icon"><i class="fa-solid fa-cubes"></i></div>
+                    <div class="r-body">
+                      <span class="r-label">Predicted Demand</span>
+                      <h3 class="r-val" id="resDemandUnits">1,500 units</h3>
+                      <span class="r-sub" id="resDemandHistoricalNote">vs Historical Avg</span>
+                    </div>
+                  </div>
+
+                  <div class="result-kpi-card kpi-indigo">
+                    <div class="r-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+                    <div class="r-body">
+                      <span class="r-label">Expected Sales Volume</span>
+                      <h3 class="r-val" id="resSalesUnits">1,380 units</h3>
+                      <span class="r-sub">Conversion Rate: ~92%</span>
+                    </div>
+                  </div>
+
+                  <div class="result-kpi-card kpi-cyan">
+                    <div class="r-icon"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+                    <div class="r-body">
+                      <span class="r-label">Expected Gross Sales</span>
+                      <h3 class="r-val" id="resSalesRevenue">₹2,50,000</h3>
+                      <span class="r-sub" id="resRevenueHistoricalNote">Gross Revenue</span>
+                    </div>
+                  </div>
+
+                  <div class="result-kpi-card kpi-amber">
+                    <div class="r-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <div class="r-body">
+                      <span class="r-label">Optimal Recommended Price</span>
+                      <h3 class="r-val" id="resOptimalPrice">₹2,899</h3>
+                      <span class="r-sub text-amber">Maximizes Gross Sales</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Historical Comparison Box (When available) -->
+                <div class="historical-comparison-card" id="historicalComparisonBox" style="display: none;">
+                  <div class="h-comp-header">
+                    <h4><i class="fa-solid fa-clock-rotate-left"></i> Historical Baseline Comparison</h4>
+                    <span class="badge badge-outline" id="histRecordsCount">24 Historical Months</span>
+                  </div>
+                  <div class="h-comp-grid">
+                    <div class="h-comp-item">
+                      <span>Historical Avg Demand</span>
+                      <strong id="histAvgDemand">0 units</strong>
+                      <span class="diff-tag" id="histDemandDelta">+0%</span>
+                    </div>
+                    <div class="h-comp-item">
+                      <span>Historical Avg Sales</span>
+                      <strong id="histAvgSales">0 units</strong>
+                    </div>
+                    <div class="h-comp-item">
+                      <span>Historical Avg Revenue</span>
+                      <strong id="histAvgRev">₹0</strong>
+                      <span class="diff-tag" id="histRevDelta">+0%</span>
+                    </div>
+                    <div class="h-comp-item">
+                      <span>Historical Avg Price</span>
+                      <strong id="histAvgPrice">₹0</strong>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Price Elasticity Simulation Curve -->
+                <div class="dashboard-card mt-3">
+                  <div class="card-header">
+                    <div>
+                      <h4 class="card-title"><i class="fa-solid fa-chart-line"></i> Price Elasticity & Revenue Curve</h4>
+                      <p class="card-subtitle">Expected revenue across -20% to +20% price variations</p>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="chart-container" style="height: 220px;">
+                      <canvas id="predictionElasticityChart"></canvas>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Model Evaluation & Governance Disclaimer -->
+                <div class="model-disclaimer-box mt-3">
+                  <div class="disclaimer-header">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <strong>Model Accuracy & Evaluation Transparency</strong>
+                  </div>
+                  <p id="resDisclaimerText">Predictions are generated using a Scikit-Learn Random Forest Regressor trained on 80% train / 20% test split with an actual test R² of 0.925 and MAE of 78.3 units. Estimates are statistical approximations based on historical market trends; actual sales may vary with unforeseen shocks or ad campaigns.</p>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- ============================================== -->
+        <!-- VIEW 5: MODEL PERFORMANCE                      -->
+        <!-- ============================================== -->
+        <section class="view-pane" id="view-models">
+          
+          <div class="section-heading">
+            <div>
+              <h2>Machine Learning Model Benchmarks & Validation</h2>
+              <p>Rigorous test-set evaluation across Linear Regression, Random Forest, and Decision Tree with zero data leakage</p>
+            </div>
+            <button class="btn btn-secondary btn-sm" id="btnTriggerRetrain">
+              <i class="fa-solid fa-arrows-rotate"></i> Retrain All Models
+            </button>
+          </div>
+
+          <!-- Evaluation Metrics Comparison Table -->
+          <div class="dashboard-card mb-4">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title"><i class="fa-solid fa-table-columns"></i> Multi-Algorithm Performance Matrix</h3>
+                <p class="card-subtitle">Evaluated on held-out 20% test partition (MAE, MSE, RMSE, and R² Score)</p>
+              </div>
+              <div class="card-badge"><span class="badge badge-success">80/20 Train-Test Split</span></div>
+            </div>
+            <div class="card-body">
+              
+              <div class="tab-pills-row">
+                <button class="tab-pill active" data-target="demand">Target: Demand (Units)</button>
+                <button class="tab-pill" data-target="sales_quantity">Target: Sales Quantity (Units)</button>
+                <button class="tab-pill" data-target="price">Target: Price (₹)</button>
+              </div>
+
+              <div class="table-responsive mt-3">
+                <table class="data-table" id="modelsMetricsTable">
+                  <thead>
+                    <tr>
+                      <th>Algorithm</th>
+                      <th>Model Type</th>
+                      <th>Mean Absolute Error (MAE)</th>
+                      <th>Mean Squared Error (MSE)</th>
+                      <th>Root Mean Sq. Error (RMSE)</th>
+                      <th>R² Score</th>
+                      <th>Accuracy / Fit</th>
+                      <th>Selection Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Injected dynamically -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Actual vs Predicted Test Graph & Feature Importance -->
+          <div class="content-grid-2">
+            <!-- Actual vs Predicted Test Samples -->
+            <div class="dashboard-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title"><i class="fa-solid fa-code-compare"></i> Actual vs. Predicted (Test Set)</h3>
+                  <p class="card-subtitle">Real observed values vs model predictions on unseen test sample items</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="chart-container" style="height: 320px;">
+                  <canvas id="chartActualVsPredicted"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <!-- Feature Importance Bar Chart -->
+            <div class="dashboard-card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title"><i class="fa-solid fa-brain"></i> Random Forest Feature Importances</h3>
+                  <p class="card-subtitle">Top drivers influencing market demand and price sensitivity</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="chart-container" style="height: 320px;">
+                  <canvas id="chartFeatureImportance"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Model Architecture Technical Details -->
+          <div class="dashboard-card mt-4">
+            <div class="card-header">
+              <h3 class="card-title"><i class="fa-solid fa-circle-info"></i> Model Architecture & Anti-Leakage Pipeline</h3>
+            </div>
+            <div class="card-body">
+              <div class="architecture-grid">
+                <div class="arch-card">
+                  <h4><i class="fa-solid fa-chart-line text-indigo"></i> Linear Regression</h4>
+                  <p>Fits an optimal parametric hyperplane mapping price differentials, competitor ratios, and seasonal factors. Serves as our transparent, highly interpretable baseline.</p>
+                </div>
+                <div class="arch-card">
+                  <h4><i class="fa-solid fa-tree text-emerald"></i> Random Forest Regressor</h4>
+                  <p>Ensemble of 100 decorrelated decision trees with bootstrap aggregation. Accurately captures non-linear price elasticity curves and high-order category interactions without overfitting.</p>
+                </div>
+                <div class="arch-card">
+                  <h4><i class="fa-solid fa-sitemap text-amber"></i> Decision Tree Regressor</h4>
+                  <p>Constructs recursive binary decision splits up to depth 8. Ideal for segmenting products into performance tiers and identifying pricing threshold breakpoints.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================== -->
+        <!-- VIEW 6: DATASET MANAGEMENT & UPLOAD            -->
+        <!-- ============================================== -->
+        <section class="view-pane" id="view-dataset">
+          
+          <div class="section-heading">
+            <div>
+              <h2>Dataset Management & Upload Hub</h2>
+              <p>Upload market records in CSV or Excel format, inspect raw dataset records, and monitor data cleaning</p>
+            </div>
+            <div class="heading-actions">
+              <button class="btn btn-outline btn-sm" id="btnResetToSample">
+                <i class="fa-solid fa-rotate-left"></i> Reset to Sample Dataset
+              </button>
+            </div>
+          </div>
+
+          <!-- Upload Dropzone & Hygiene Stats -->
+          <div class="content-grid-2 mb-4">
+            
+            <!-- File Upload Dropzone -->
+            <div class="dashboard-card">
+              <div class="card-header">
+                <h3 class="card-title"><i class="fa-solid fa-cloud-arrow-up"></i> Upload CSV or Excel Dataset</h3>
+                <span class="badge badge-primary">.CSV / .XLSX / .XLS</span>
+              </div>
+              <div class="card-body">
+                <div class="upload-dropzone" id="uploadDropzone">
+                  <input type="file" id="fileUploadInput" accept=".csv, .xlsx, .xls" style="display: none;">
+                  <div class="dropzone-icon"><i class="fa-solid fa-file-csv"></i></div>
+                  <h4>Drag and drop your dataset here</h4>
+                  <p>or click to browse from your computer (CSV or Excel)</p>
+                  <button class="btn btn-primary btn-sm mt-2" onclick="document.getElementById('fileUploadInput').click()">
+                    <i class="fa-solid fa-folder-open"></i> Select File
+                  </button>
+                </div>
+                
+                <div class="upload-progress-box" id="uploadProgressBox" style="display: none;">
+                  <div class="spinner-small"></div>
+                  <span id="uploadProgressText">Processing file and retraining ML models...</span>
+                </div>
+
+                <div class="upload-notes mt-2">
+                  <small class="text-muted"><i class="fa-solid fa-info-circle"></i> Supported columns: Product Name, Category, Price, Sales, Demand, Ratings, Competitor Price, Date. Intelligent fuzzy mapping standardizes arbitrary column headers.</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dataset Hygiene & Preprocessing Report -->
+            <div class="dashboard-card">
+              <div class="card-header">
+                <h3 class="card-title"><i class="fa-solid fa-stethoscope"></i> Dataset Health & Preprocessing Status</h3>
+                <span class="badge badge-success" id="dataHealthBadge">Healthy</span>
+              </div>
+              <div class="card-body">
+                <div class="health-stats-list">
+                  <div class="health-item">
+                    <span class="health-label"><i class="fa-solid fa-database text-indigo"></i> Active Data Source:</span>
+                    <strong class="health-val" id="healthSource">Built-in Sample (720 records)</strong>
+                  </div>
+                  <div class="health-item">
+                    <span class="health-label"><i class="fa-solid fa-clone text-emerald"></i> Duplicate Records Handled:</span>
+                    <strong class="health-val text-emerald" id="healthDuplicates">0 duplicates removed</strong>
+                  </div>
+                  <div class="health-item">
+                    <span class="health-label"><i class="fa-solid fa-filter-circle-xmark text-amber"></i> Missing Values Imputed:</span>
+                    <strong class="health-val text-amber" id="healthMissing">3 missing values imputed</strong>
+                  </div>
+                  <div class="health-item">
+                    <span class="health-label"><i class="fa-solid fa-arrows-left-right text-cyan"></i> Outlier Detection:</span>
+                    <strong class="health-val text-cyan" id="healthOutliers">IQR Outliers Monitored</strong>
+                  </div>
+                  <div class="health-item">
+                    <span class="health-label"><i class="fa-solid fa-calendar-check text-purple"></i> Covered Date Range:</span>
+                    <strong class="health-val" id="healthDateRange">Nov 2024 to Oct 2026</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Raw Dataset Table with Filter & Pagination -->
+          <div class="dashboard-card">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title"><i class="fa-solid fa-table"></i> Active Dataset Explorer</h3>
+                <p class="card-subtitle">Browse, filter, and inspect records currently feeding the machine learning pipeline</p>
+              </div>
+              <div class="table-search-bar">
+                <input type="text" id="datasetSearchInput" class="form-control form-control-sm" placeholder="Search product name...">
+                <select id="datasetCategoryFilter" class="form-control form-control-sm">
+                  <option value="">All Categories</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="data-table" id="datasetExplorerTable">
+                  <thead>
+                    <tr>
+                      <th>Product Name</th>
+                      <th>Category</th>
+                      <th>Price (₹)</th>
+                      <th>Competitor Price</th>
+                      <th>Demand</th>
+                      <th>Sales Qty</th>
+                      <th>Revenue (₹)</th>
+                      <th>Rating</th>
+                      <th>Date</th>
+                      <th>Market Trend</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Injected dynamically -->
+                  </tbody>
+                </table>
+              </div>
+
+              <!-- Pagination Controls -->
+              <div class="pagination-footer">
+                <span class="pagination-info" id="paginationInfo">Showing 1 to 15 of 720 records</span>
+                <div class="pagination-buttons">
+                  <button class="btn btn-outline btn-xs" id="btnPrevPage"><i class="fa-solid fa-chevron-left"></i> Previous</button>
+                  <span class="pagination-page-indicator" id="paginationPage">Page 1 of 48</span>
+                  <button class="btn btn-outline btn-xs" id="btnNextPage">Next <i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Global Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Loading Overlay for Retraining / Uploads -->
+  <div class="loading-overlay" id="globalLoadingOverlay" style="display: none;">
+    <div class="loading-content">
+      <div class="spinner-large"></div>
+      <h3 id="loadingOverlayTitle">Retraining Machine Learning Models...</h3>
+      <p id="loadingOverlaySubtitle">Evaluating Linear Regression, Random Forest & Decision Tree across test sets</p>
+    </div>
+  </div>
+
+  <!-- Application Scripts -->
+  <script src="/static/js/charts.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
+

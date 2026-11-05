@@ -1,0 +1,721 @@
+product_name,category,price,sales_quantity,demand,rating,competitor_price,date,market_trend,revenue
+Wireless Noise-Cancelling Headphones,Electronics,7850,897,1065,4.7,9020.0,2024-11-01,Increasing,7041450
+Ultra-Slim 14-inch Laptop,Electronics,52050,360,392,4.7,60790.0,2024-11-01,Increasing,18738000
+Smartwatch Pro Series 5,Electronics,9420,721,853,4.3,11320.0,2024-11-01,Increasing,6791820
+4K Ultra-HD Smart OLED TV 55,Electronics,41860,417,485,4.8,43710.0,2024-11-01,Increasing,17455620
+Mechanical RGB Gaming Keyboard,Electronics,3520,909,978,4.2,3210.0,2024-11-01,Increasing,3199680
+True Wireless Earbuds ANC,Electronics,2880,1180,1428,4.3,3040.0,2024-11-01,Increasing,3398400
+Portable Bluetooth Speaker 20W,Electronics,2520,941,1067,4.1,2310.0,2024-11-01,Increasing,2371320
+1TB High-Speed External SSD,Electronics,6200,666,703,4.8,6560.0,2024-11-01,Increasing,4129200
+Premium Cotton Oxford Casual Shirt,Fashion,1450,1456,1721,4.3,1580.0,2024-11-01,Increasing,2111200
+Pro Running Athletic Shoes,Fashion,3450,1164,1231,4.4,3570.0,2024-11-01,Increasing,4015800
+Waterproof All-Weather Windbreaker,Fashion,2920,798,930,4.4,3250.0,2024-11-01,Increasing,2330160
+Slim-Fit Stretch Denim Jeans,Fashion,1960,1014,1132,4.1,1850.0,2024-11-01,Increasing,1987440
+Polarized UV Aviator Sunglasses,Fashion,1240,1206,1291,,1410.0,2024-11-01,Increasing,1495440
+Genuine Leather Bifold Wallet,Fashion,1020,1315,1584,4.3,1070.0,2024-11-01,Increasing,1341300
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4900,768,926,4.7,4550.0,2024-11-01,Increasing,3763200
+Robot Vacuum & Mop Cleaner,Home & Kitchen,19480,448,493,4.5,19290.0,2024-11-01,Increasing,8727040
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8820,574,639,4.6,8520.0,2024-11-01,Increasing,5062680
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3890,633,719,4.2,3830.0,2024-11-01,Increasing,2462370
+True HEPA Air Purifier Room,Home & Kitchen,6880,590,662,4.5,6630.0,2024-11-01,Increasing,4059200
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1660,1087,1174,4.4,1510.0,2024-11-01,Increasing,1804420
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1830,812,870,4.5,1710.0,2024-11-01,Declining,1485960
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3530,564,666,4.4,3870.0,2024-11-01,Increasing,1990920
+Organic Vitamin C Radiance Serum,Health & Personal Care,830,1295,1472,4.2,820.0,2024-11-01,Stable,1074850
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1750,686,769,4.4,1880.0,2024-11-01,Increasing,1200500
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1380,961,1111,4.2,1310.0,2024-11-01,Stable,1326180
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1200,1034,1082,4.6,1270.0,2024-11-01,Increasing,1240800
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,9410,305,370,4.6,8510.0,2024-11-01,Declining,2870050
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,800,1198,1395,4.4,810.0,2024-11-01,Stable,958400
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,930,1121,1313,4.5,850.0,2024-11-01,Declining,1042530
+Ergonomic Road Cycling Helmet,Sports & Fitness,2330,497,539,4.2,2480.0,2024-11-01,Increasing,1158010
+Wireless Noise-Cancelling Headphones,Electronics,7840,940,1003,4.7,8350.0,2024-12-01,Increasing,7369600
+Ultra-Slim 14-inch Laptop,Electronics,53640,286,317,4.8,51070.0,2024-12-01,Increasing,15341040
+Smartwatch Pro Series 5,Electronics,10140,588,696,4.2,8840.0,2024-12-01,Increasing,5962320
+4K Ultra-HD Smart OLED TV 55,Electronics,43690,403,480,4.7,42160.0,2024-12-01,Increasing,17607070
+Mechanical RGB Gaming Keyboard,Electronics,3420,1007,1122,4.4,3180.0,2024-12-01,Increasing,3443940
+True Wireless Earbuds ANC,Electronics,2990,1177,1245,4.4,2830.0,2024-12-01,Increasing,3519230
+Portable Bluetooth Speaker 20W,Electronics,2600,1101,1164,4.1,2610.0,2024-12-01,Increasing,2862600
+1TB High-Speed External SSD,Electronics,6740,607,730,4.6,7040.0,2024-12-01,Increasing,4091180
+Premium Cotton Oxford Casual Shirt,Fashion,1440,1384,1643,4.3,1670.0,2024-12-01,Increasing,1992960
+Pro Running Athletic Shoes,Fashion,3300,1055,1239,4.5,3500.0,2024-12-01,Increasing,3481500
+Waterproof All-Weather Windbreaker,Fashion,2950,813,866,4.5,2730.0,2024-12-01,Increasing,2398350
+Slim-Fit Stretch Denim Jeans,Fashion,1920,987,1132,4.0,1950.0,2024-12-01,Increasing,1895040
+Polarized UV Aviator Sunglasses,Fashion,1260,1249,1375,4.5,1230.0,2024-12-01,Increasing,1573740
+Genuine Leather Bifold Wallet,Fashion,1030,1261,1418,4.2,1010.0,2024-12-01,Increasing,1298830
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4810,871,913,4.6,5340.0,2024-12-01,Increasing,4189510
+Robot Vacuum & Mop Cleaner,Home & Kitchen,20810,319,336,4.5,,2024-12-01,Declining,6638390
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8390,495,573,4.5,9620.0,2024-12-01,Increasing,4153050
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3640,582,634,4.1,3890.0,2024-12-01,Increasing,2118480
+True HEPA Air Purifier Room,Home & Kitchen,7320,505,547,4.5,6610.0,2024-12-01,Declining,3696600
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1630,876,1017,4.3,1700.0,2024-12-01,Stable,1427880
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1950,914,1003,4.7,2070.0,2024-12-01,Increasing,1782300
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3560,680,784,5.0,3800.0,2024-12-01,Increasing,2420800
+Organic Vitamin C Radiance Serum,Health & Personal Care,780,1296,1446,4.2,720.0,2024-12-01,Declining,1010880
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1650,635,770,4.4,1760.0,2024-12-01,Increasing,1047750
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1440,918,1080,4.2,1360.0,2024-12-01,Stable,1321920
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1210,797,891,4.6,1080.0,2024-12-01,Declining,964370
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,8990,391,456,4.6,9410.0,2024-12-01,Stable,3515090
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,790,1214,1272,4.4,720.0,2024-12-01,Declining,959060
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,930,1053,1232,4.4,950.0,2024-12-01,Stable,979290
+Ergonomic Road Cycling Helmet,Sports & Fitness,2300,513,597,4.3,2450.0,2024-12-01,Increasing,1179900
+Wireless Noise-Cancelling Headphones,Electronics,8360,724,847,4.9,8570.0,2025-01-01,Stable,6052640
+Ultra-Slim 14-inch Laptop,Electronics,53850,217,260,4.6,59240.0,2025-01-01,Increasing,11685450
+Smartwatch Pro Series 5,Electronics,9450,519,622,4.5,8910.0,2025-01-01,Declining,4904550
+4K Ultra-HD Smart OLED TV 55,Electronics,42740,311,353,4.8,43130.0,2025-01-01,Stable,13292140
+Mechanical RGB Gaming Keyboard,Electronics,3440,773,852,4.2,3640.0,2025-01-01,Increasing,2659120
+True Wireless Earbuds ANC,Electronics,2990,1041,1235,4.5,3310.0,2025-01-01,Increasing,3112590
+Portable Bluetooth Speaker 20W,Electronics,2370,934,1037,4.2,2620.0,2025-01-01,Increasing,2213580
+1TB High-Speed External SSD,Electronics,6390,531,592,4.8,6810.0,2025-01-01,Increasing,3393090
+Premium Cotton Oxford Casual Shirt,Fashion,1560,1009,1167,4.3,1470.0,2025-01-01,Declining,1574040
+Pro Running Athletic Shoes,Fashion,3410,741,862,4.5,2920.0,2025-01-01,Declining,2526810
+Waterproof All-Weather Windbreaker,Fashion,2760,777,833,4.5,3080.0,2025-01-01,Increasing,2144520
+Slim-Fit Stretch Denim Jeans,Fashion,1840,946,1014,4.1,1760.0,2025-01-01,Stable,1740640
+Polarized UV Aviator Sunglasses,Fashion,1360,1006,1059,4.7,1280.0,2025-01-01,Declining,1368160
+Genuine Leather Bifold Wallet,Fashion,1030,1053,1138,4.1,990.0,2025-01-01,Stable,1084590
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4760,891,942,4.9,5570.0,2025-01-01,Increasing,4241160
+Robot Vacuum & Mop Cleaner,Home & Kitchen,19660,305,366,4.4,17660.0,2025-01-01,Declining,5996300
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8290,512,580,4.6,9580.0,2025-01-01,Increasing,4244480
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3690,592,640,4.4,3670.0,2025-01-01,Stable,2184480
+True HEPA Air Purifier Room,Home & Kitchen,7500,496,553,4.5,7920.0,2025-01-01,Increasing,3720000
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1580,907,1084,4.3,1780.0,2025-01-01,Increasing,1433060
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1810,1189,1295,4.5,2050.0,2025-01-01,Increasing,2152090
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3320,854,1027,4.5,3830.0,2025-01-01,Increasing,2835280
+Organic Vitamin C Radiance Serum,Health & Personal Care,760,2509,2634,4.1,910.0,2025-01-01,Increasing,1906840
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1780,912,1097,4.2,1830.0,2025-01-01,Increasing,1623360
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1430,1371,1542,4.3,1430.0,2025-01-01,Increasing,1960530
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1130,1304,1559,4.7,1200.0,2025-01-01,Increasing,1473520
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,8580,673,771,4.9,9440.0,2025-01-01,Increasing,5774340
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,780,2310,2419,4.6,880.0,2025-01-01,Increasing,1801800
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,850,1837,2047,,1020.0,2025-01-01,Increasing,1561450
+Ergonomic Road Cycling Helmet,Sports & Fitness,2410,744,811,4.3,2340.0,2025-01-01,Increasing,1793040
+Wireless Noise-Cancelling Headphones,Electronics,7920,663,771,4.7,8340.0,2025-02-01,Increasing,5250960
+Ultra-Slim 14-inch Laptop,Electronics,57450,241,266,4.5,61130.0,2025-02-01,Increasing,13845450
+Smartwatch Pro Series 5,Electronics,9700,474,570,4.1,9290.0,2025-02-01,Stable,4597800
+4K Ultra-HD Smart OLED TV 55,Electronics,45030,345,385,4.6,48860.0,2025-02-01,Increasing,15535350
+Mechanical RGB Gaming Keyboard,Electronics,3410,903,966,4.2,3820.0,2025-02-01,Increasing,3079230
+True Wireless Earbuds ANC,Electronics,3130,1049,1194,4.6,3200.0,2025-02-01,Stable,3283370
+Portable Bluetooth Speaker 20W,Electronics,2610,880,1046,4.3,2760.0,2025-02-01,Increasing,2296800
+1TB High-Speed External SSD,Electronics,6530,547,583,4.7,6360.0,2025-02-01,Stable,3571910
+Premium Cotton Oxford Casual Shirt,Fashion,1550,1056,1122,4.1,1500.0,2025-02-01,Stable,1636800
+Pro Running Athletic Shoes,Fashion,3400,991,1104,4.5,3760.0,2025-02-01,Increasing,3369400
+Waterproof All-Weather Windbreaker,Fashion,2970,624,744,4.3,3260.0,2025-02-01,Increasing,1853280
+Slim-Fit Stretch Denim Jeans,Fashion,1980,911,997,4.2,1970.0,2025-02-01,Stable,1803780
+Polarized UV Aviator Sunglasses,Fashion,1310,977,1053,4.5,1260.0,2025-02-01,Stable,1279870
+Genuine Leather Bifold Wallet,Fashion,1000,1102,1226,4.1,1100.0,2025-02-01,Increasing,1102000
+Digital Air Fryer Pro 5.5L,Home & Kitchen,5180,712,838,4.8,4920.0,2025-02-01,Stable,3688160
+Robot Vacuum & Mop Cleaner,Home & Kitchen,19100,330,366,4.6,17670.0,2025-02-01,Declining,6303000
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8360,483,519,4.6,8450.0,2025-02-01,Stable,4037880
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3740,660,693,4.4,3960.0,2025-02-01,Increasing,2468400
+True HEPA Air Purifier Room,Home & Kitchen,6980,573,599,4.3,8180.0,2025-02-01,Increasing,3999540
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1590,894,1047,4.4,1540.0,2025-02-01,Stable,1421460
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1800,792,912,4.6,1730.0,2025-02-01,Stable,1425600
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3630,560,663,4.4,3510.0,2025-02-01,Stable,2032800
+Organic Vitamin C Radiance Serum,Health & Personal Care,770,1280,1538,4.2,710.0,2025-02-01,Declining,985600
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1620,739,849,4.3,1700.0,2025-02-01,Stable,1197180
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1390,1239,1306,4.1,1480.0,2025-02-01,Increasing,1722210
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1140,1183,1279,4.7,1140.0,2025-02-01,Stable,1348620
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,8640,431,494,4.8,8410.0,2025-02-01,Stable,3723840
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,790,1281,1498,4.1,860.0,2025-02-01,Increasing,1011990
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,920,1448,1641,4.9,1000.0,2025-02-01,Increasing,1332160
+Ergonomic Road Cycling Helmet,Sports & Fitness,2300,511,585,4.4,2170.0,2025-02-01,Stable,1175300
+Wireless Noise-Cancelling Headphones,Electronics,7540,683,723,4.5,7710.0,2025-03-01,Stable,5149820
+Ultra-Slim 14-inch Laptop,Electronics,55290,241,271,4.4,58110.0,2025-03-01,Stable,13324890
+Smartwatch Pro Series 5,Electronics,9490,593,708,4.6,10200.0,2025-03-01,Increasing,5627570
+4K Ultra-HD Smart OLED TV 55,Electronics,41760,343,381,4.8,41900.0,2025-03-01,Stable,14323680
+Mechanical RGB Gaming Keyboard,Electronics,3430,710,844,4.1,3980.0,2025-03-01,Increasing,2435300
+True Wireless Earbuds ANC,Electronics,2900,905,1053,4.6,2760.0,2025-03-01,Stable,2624500
+Portable Bluetooth Speaker 20W,Electronics,2400,947,989,4.2,2780.0,2025-03-01,Increasing,2272800
+1TB High-Speed External SSD,Electronics,6190,576,612,4.7,6390.0,2025-03-01,Stable,3565440
+Premium Cotton Oxford Casual Shirt,Fashion,1540,1220,1359,4.4,1420.0,2025-03-01,Declining,1878800
+Pro Running Athletic Shoes,Fashion,3310,804,950,4.5,3140.0,2025-03-01,Stable,2661240
+Waterproof All-Weather Windbreaker,Fashion,2830,585,646,4.2,2870.0,2025-03-01,Stable,1655550
+Slim-Fit Stretch Denim Jeans,Fashion,1850,891,1004,4.1,1960.0,2025-03-01,Increasing,1648350
+Polarized UV Aviator Sunglasses,Fashion,1300,850,887,4.4,1160.0,2025-03-01,Declining,1105000
+Genuine Leather Bifold Wallet,Fashion,970,1121,1225,4.2,1090.0,2025-03-01,Increasing,1087370
+Digital Air Fryer Pro 5.5L,Home & Kitchen,5120,709,746,4.4,5170.0,2025-03-01,Stable,3630080
+Robot Vacuum & Mop Cleaner,Home & Kitchen,20630,341,370,4.3,22620.0,2025-03-01,Increasing,7034830
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8870,440,469,4.6,7880.0,2025-03-01,Declining,3902800
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3630,537,637,4.3,4130.0,2025-03-01,Increasing,1949310
+True HEPA Air Purifier Room,Home & Kitchen,6990,581,616,4.5,7970.0,2025-03-01,Increasing,4061190
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1570,1046,1198,4.6,1750.0,2025-03-01,Increasing,1642220
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1880,877,927,4.6,1820.0,2025-03-01,Increasing,1648760
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3440,720,794,4.7,3570.0,2025-03-01,Increasing,2476800
+Organic Vitamin C Radiance Serum,Health & Personal Care,760,1667,1790,4.1,900.0,2025-03-01,Increasing,1266920
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1710,912,980,4.5,1730.0,2025-03-01,Increasing,1559520
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1340,1044,1160,4.3,1340.0,2025-03-01,Increasing,1398960
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1230,1148,1228,4.6,1330.0,2025-03-01,Increasing,1412040
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,8570,484,576,4.8,9900.0,2025-03-01,Increasing,4147880
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,770,1641,1804,4.3,850.0,2025-03-01,Increasing,1263570
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,910,1300,1373,4.4,920.0,2025-03-01,Increasing,1183000
+Ergonomic Road Cycling Helmet,Sports & Fitness,2310,559,587,4.2,2260.0,2025-03-01,Increasing,1291290
+Wireless Noise-Cancelling Headphones,Electronics,7650,780,828,4.9,8260.0,2025-04-01,Increasing,5967000
+Ultra-Slim 14-inch Laptop,Electronics,57340,249,262,4.5,56480.0,2025-04-01,Stable,14277660
+Smartwatch Pro Series 5,Electronics,10180,567,614,4.6,9200.0,2025-04-01,Declining,5772060
+4K Ultra-HD Smart OLED TV 55,Electronics,44840,335,401,4.9,48190.0,2025-04-01,Increasing,15021400
+Mechanical RGB Gaming Keyboard,Electronics,3670,796,909,4.3,3840.0,2025-04-01,Stable,2921320
+True Wireless Earbuds ANC,Electronics,2840,1014,1235,4.6,2900.0,2025-04-01,Stable,2879760
+Portable Bluetooth Speaker 20W,Electronics,2440,796,917,4.3,2460.0,2025-04-01,Stable,1942240
+1TB High-Speed External SSD,Electronics,6640,473,536,4.8,6480.0,2025-04-01,Stable,3140720
+Premium Cotton Oxford Casual Shirt,Fashion,1430,1095,1258,4.0,1390.0,2025-04-01,Stable,1565850
+Pro Running Athletic Shoes,Fashion,3310,854,935,4.6,3450.0,2025-04-01,Stable,2826740
+Waterproof All-Weather Windbreaker,Fashion,2780,728,759,4.4,3280.0,2025-04-01,Increasing,2023840
+Slim-Fit Stretch Denim Jeans,Fashion,1890,877,948,4.0,1970.0,2025-04-01,Stable,1657530
+Polarized UV Aviator Sunglasses,Fashion,1250,963,1087,4.4,1450.0,2025-04-01,Increasing,1203750
+Genuine Leather Bifold Wallet,Fashion,1000,957,1083,4.1,900.0,2025-04-01,Declining,957000
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4990,678,802,4.8,4970.0,2025-04-01,Stable,3383220
+Robot Vacuum & Mop Cleaner,Home & Kitchen,20690,321,374,4.2,22520.0,2025-04-01,Increasing,6641490
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8590,409,481,4.7,8380.0,2025-04-01,Stable,3513310
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3670,533,639,4.5,4010.0,2025-04-01,Increasing,1956110
+True HEPA Air Purifier Room,Home & Kitchen,7500,407,477,4.4,6760.0,2025-04-01,Declining,3052500
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1630,1063,1214,4.5,1760.0,2025-04-01,Increasing,1732690
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1920,666,801,4.7,1770.0,2025-04-01,Declining,1278720
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3370,497,551,4.5,3100.0,2025-04-01,Declining,1674890
+Organic Vitamin C Radiance Serum,Health & Personal Care,790,1454,1665,4.2,890.0,2025-04-01,Increasing,1148660
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1710,707,806,4.5,1610.0,2025-04-01,Declining,1208970
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1400,964,1148,4.2,1390.0,2025-04-01,Stable,1349600
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1240,1081,1160,4.7,1210.0,2025-04-01,Stable,1340440
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,8880,360,420,4.8,7970.0,2025-04-01,Declining,3196800
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,760,1529,1711,4.2,880.0,2025-04-01,Increasing,1162040
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,860,1153,1285,4.5,850.0,2025-04-01,Stable,991580
+Ergonomic Road Cycling Helmet,Sports & Fitness,2330,455,554,4.2,2520.0,2025-04-01,Increasing,1060150
+Wireless Noise-Cancelling Headphones,Electronics,7640,809,886,4.6,8910.0,2025-05-01,Increasing,6180760
+Ultra-Slim 14-inch Laptop,Electronics,52760,254,291,4.6,61470.0,2025-05-01,Increasing,13401040
+Smartwatch Pro Series 5,Electronics,9970,506,560,4.5,8920.0,2025-05-01,Declining,5044820
+4K Ultra-HD Smart OLED TV 55,Electronics,41580,300,345,4.6,42190.0,2025-05-01,Stable,12474000
+Mechanical RGB Gaming Keyboard,Electronics,3570,778,818,4.2,3350.0,2025-05-01,Declining,2777460
+True Wireless Earbuds ANC,Electronics,3060,903,1054,4.8,2810.0,2025-05-01,Declining,2763180
+Portable Bluetooth Speaker 20W,Electronics,2510,807,870,4.5,2230.0,2025-05-01,Declining,2025570
+1TB High-Speed External SSD,Electronics,6190,504,567,4.8,5850.0,2025-05-01,Stable,3119760
+Premium Cotton Oxford Casual Shirt,Fashion,1520,1555,1695,4.4,1490.0,2025-05-01,Increasing,2363600
+Pro Running Athletic Shoes,Fashion,3200,981,1178,4.5,3410.0,2025-05-01,Increasing,3139200
+Waterproof All-Weather Windbreaker,Fashion,3020,659,736,4.4,2650.0,2025-05-01,Increasing,1990180
+Slim-Fit Stretch Denim Jeans,Fashion,1970,1239,1358,4.2,2030.0,2025-05-01,Increasing,2440830
+Polarized UV Aviator Sunglasses,Fashion,1320,1274,1329,4.5,1430.0,2025-05-01,Increasing,1681680
+Genuine Leather Bifold Wallet,Fashion,1040,1125,1185,4.0,890.0,2025-05-01,Increasing,1170000
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4800,868,908,4.6,5140.0,2025-05-01,Increasing,4166400
+Robot Vacuum & Mop Cleaner,Home & Kitchen,20880,377,402,4.5,20060.0,2025-05-01,Stable,7871760
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8290,451,539,4.6,9310.0,2025-05-01,Increasing,3738790
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3600,580,629,4.2,4030.0,2025-05-01,Increasing,2088000
+True HEPA Air Purifier Room,Home & Kitchen,6910,545,600,4.7,7020.0,2025-05-01,Stable,3765950
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1660,836,1015,4.4,1660.0,2025-05-01,Stable,1387760
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1970,781,838,4.6,1680.0,2025-05-01,Declining,1538570
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3670,551,629,4.6,3400.0,2025-05-01,Declining,2022170
+Organic Vitamin C Radiance Serum,Health & Personal Care,790,1508,1633,4.2,830.0,2025-05-01,Stable,1191320
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1640,684,795,4.6,1540.0,2025-05-01,Declining,1121760
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1360,973,1063,4.2,1320.0,2025-05-01,Stable,1323280
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1160,1081,1299,4.7,1350.0,2025-05-01,Increasing,1253960
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,8870,424,503,4.8,9980.0,2025-05-01,Increasing,3760880
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,840,1385,1520,4.5,750.0,2025-05-01,Declining,1163400
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,910,1059,1252,4.4,910.0,2025-05-01,Stable,963690
+Ergonomic Road Cycling Helmet,Sports & Fitness,2360,465,487,4.2,2230.0,2025-05-01,Stable,1097400
+Wireless Noise-Cancelling Headphones,Electronics,8300,762,906,4.8,8970.0,2025-06-01,Increasing,6324600
+Ultra-Slim 14-inch Laptop,Electronics,56630,198,221,4.4,51610.0,2025-06-01,Declining,11212740
+Smartwatch Pro Series 5,Electronics,10050,647,678,4.3,10310.0,2025-06-01,Stable,6502350
+4K Ultra-HD Smart OLED TV 55,Electronics,44500,349,389,4.7,46890.0,2025-06-01,Increasing,15530500
+Mechanical RGB Gaming Keyboard,Electronics,3320,776,872,4.1,3450.0,2025-06-01,Stable,2576320
+True Wireless Earbuds ANC,Electronics,2850,929,1118,4.4,2810.0,2025-06-01,Stable,2647650
+Portable Bluetooth Speaker 20W,Electronics,2580,893,1028,4.5,2520.0,2025-06-01,Stable,2303940
+1TB High-Speed External SSD,Electronics,6590,513,544,4.7,6680.0,2025-06-01,Stable,3380670
+Premium Cotton Oxford Casual Shirt,Fashion,1540,1587,1734,4.4,1580.0,2025-06-01,Increasing,2443980
+Pro Running Athletic Shoes,Fashion,3330,1140,1208,4.7,3550.0,2025-06-01,Increasing,3796200
+Waterproof All-Weather Windbreaker,Fashion,3000,681,737,4.4,2570.0,2025-06-01,Increasing,2043000
+Slim-Fit Stretch Denim Jeans,Fashion,1820,1264,1419,4.1,2070.0,2025-06-01,Increasing,2300480
+Polarized UV Aviator Sunglasses,Fashion,1220,1163,1358,4.5,1240.0,2025-06-01,Increasing,1418860
+Genuine Leather Bifold Wallet,Fashion,1010,1245,1491,4.2,1020.0,2025-06-01,Increasing,1257450
+Digital Air Fryer Pro 5.5L,Home & Kitchen,5120,806,848,4.7,5100.0,2025-06-01,Stable,4126720
+Robot Vacuum & Mop Cleaner,Home & Kitchen,19020,367,442,4.4,22470.0,2025-06-01,Increasing,6980340
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8270,490,540,4.6,9040.0,2025-06-01,Increasing,4052300
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3590,683,715,4.2,4200.0,2025-06-01,Increasing,2451970
+True HEPA Air Purifier Room,Home & Kitchen,7460,503,570,4.7,6670.0,2025-06-01,Declining,3752380
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1550,1038,1175,4.4,1820.0,2025-06-01,Increasing,1608900
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1820,826,903,4.5,2060.0,2025-06-01,Increasing,1503320
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3540,553,657,4.6,3330.0,2025-06-01,Declining,1957620
+Organic Vitamin C Radiance Serum,Health & Personal Care,790,1618,1885,4.5,900.0,2025-06-01,Increasing,1278220
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1780,680,798,4.3,1680.0,2025-06-01,Stable,1210400
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1350,910,1027,4.0,1240.0,2025-06-01,Declining,1228500
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1250,1045,1125,4.9,1110.0,2025-06-01,Declining,1306250
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,9220,383,464,4.9,9900.0,2025-06-01,Increasing,3531260
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,830,1505,1696,4.6,830.0,2025-06-01,Stable,1249150
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,860,1068,1202,4.4,820.0,2025-06-01,Stable,918480
+Ergonomic Road Cycling Helmet,Sports & Fitness,2180,575,617,4.5,2370.0,2025-06-01,Increasing,1253500
+Wireless Noise-Cancelling Headphones,Electronics,7790,682,792,4.5,7990.0,2025-07-01,Stable,5312780
+Ultra-Slim 14-inch Laptop,Electronics,55900,217,263,4.2,60700.0,2025-07-01,Increasing,12130300
+Smartwatch Pro Series 5,Electronics,9930,559,609,4.4,9070.0,2025-07-01,Declining,5550870
+4K Ultra-HD Smart OLED TV 55,Electronics,43070,275,308,4.6,37950.0,2025-07-01,Declining,11844250
+Mechanical RGB Gaming Keyboard,Electronics,3320,797,870,4.2,3400.0,2025-07-01,Stable,2646040
+True Wireless Earbuds ANC,Electronics,3080,825,988,4.5,2800.0,2025-07-01,Declining,2541000
+Portable Bluetooth Speaker 20W,Electronics,2520,926,983,4.2,2660.0,2025-07-01,Increasing,2333520
+1TB High-Speed External SSD,Electronics,6620,536,574,4.7,7070.0,2025-07-01,Increasing,3548320
+Premium Cotton Oxford Casual Shirt,Fashion,1420,1433,1575,4.5,1670.0,2025-07-01,Increasing,2034860
+Pro Running Athletic Shoes,Fashion,3290,806,973,4.6,3530.0,2025-07-01,Increasing,2651740
+Waterproof All-Weather Windbreaker,Fashion,2800,655,755,4.4,2670.0,2025-07-01,Stable,1834000
+Slim-Fit Stretch Denim Jeans,Fashion,1820,1056,1187,4.2,2060.0,2025-07-01,Increasing,1921920
+Polarized UV Aviator Sunglasses,Fashion,1300,1005,1098,4.5,1390.0,2025-07-01,Increasing,1306500
+Genuine Leather Bifold Wallet,Fashion,950,952,1076,4.2,890.0,2025-07-01,Declining,904400
+Digital Air Fryer Pro 5.5L,Home & Kitchen,5180,707,811,4.6,5340.0,2025-07-01,Stable,3662260
+Robot Vacuum & Mop Cleaner,Home & Kitchen,20970,332,369,4.6,17810.0,2025-07-01,Declining,6962040
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8400,530,603,4.7,9080.0,2025-07-01,Increasing,4452000
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3690,584,688,4.3,3930.0,2025-07-01,Increasing,2154960
+True HEPA Air Purifier Room,Home & Kitchen,7360,566,598,4.4,7620.0,2025-07-01,Stable,4165760
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1530,959,1134,4.4,1510.0,2025-07-01,Stable,1467270
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1960,813,911,4.7,1910.0,2025-07-01,Stable,1593480
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3430,542,620,4.5,3620.0,2025-07-01,Increasing,1859060
+Organic Vitamin C Radiance Serum,Health & Personal Care,840,1242,1482,4.1,760.0,2025-07-01,Declining,1043280
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1780,641,772,4.5,1700.0,2025-07-01,Stable,1140980
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1340,1016,1189,4.3,1420.0,2025-07-01,Increasing,1361440
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1210,909,1078,4.6,1280.0,2025-07-01,Increasing,1099890
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,8500,491,526,4.8,9640.0,2025-07-01,Increasing,4173500
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,800,1386,1659,4.6,880.0,2025-07-01,Increasing,1108800
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,870,1006,1202,4.6,800.0,2025-07-01,Declining,875220
+Ergonomic Road Cycling Helmet,Sports & Fitness,2280,538,604,4.3,2580.0,2025-07-01,Increasing,1226640
+Wireless Noise-Cancelling Headphones,Electronics,7560,701,786,4.7,7350.0,2025-08-01,Stable,5299560
+Ultra-Slim 14-inch Laptop,Electronics,54660,211,256,4.5,57940.0,2025-08-01,Increasing,11533260
+Smartwatch Pro Series 5,Electronics,9740,637,765,4.5,10630.0,2025-08-01,Increasing,6204380
+4K Ultra-HD Smart OLED TV 55,Electronics,43600,313,371,4.6,42800.0,2025-08-01,Stable,13646800
+Mechanical RGB Gaming Keyboard,Electronics,3560,838,924,4.3,3840.0,2025-08-01,Increasing,2983280
+True Wireless Earbuds ANC,Electronics,3110,991,1043,4.5,3080.0,2025-08-01,Stable,3082010
+Portable Bluetooth Speaker 20W,Electronics,2540,870,955,4.3,2640.0,2025-08-01,Stable,2209800
+1TB High-Speed External SSD,Electronics,6190,540,653,4.7,6830.0,2025-08-01,Increasing,3342600
+Premium Cotton Oxford Casual Shirt,Fashion,1570,1189,1288,4.3,1480.0,2025-08-01,Declining,1866730
+Pro Running Athletic Shoes,Fashion,3420,868,950,4.7,3250.0,2025-08-01,Stable,2968560
+Waterproof All-Weather Windbreaker,Fashion,2980,669,799,4.4,3130.0,2025-08-01,Stable,1993620
+Slim-Fit Stretch Denim Jeans,Fashion,1900,825,947,4.3,1670.0,2025-08-01,Declining,1567500
+Polarized UV Aviator Sunglasses,Fashion,1280,944,1082,4.4,1380.0,2025-08-01,Increasing,1208320
+Genuine Leather Bifold Wallet,Fashion,960,946,1036,3.9,900.0,2025-08-01,Declining,908160
+Digital Air Fryer Pro 5.5L,Home & Kitchen,5040,760,857,4.8,5000.0,2025-08-01,Stable,3830400
+Robot Vacuum & Mop Cleaner,Home & Kitchen,18860,337,385,4.4,19370.0,2025-08-01,Stable,6355820
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8530,539,585,4.8,8660.0,2025-08-01,Stable,4597670
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3970,424,517,4.4,3360.0,2025-08-01,Declining,1683280
+True HEPA Air Purifier Room,Home & Kitchen,7380,551,580,4.5,8130.0,2025-08-01,Increasing,4066380
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1560,857,1001,4.4,1450.0,2025-08-01,Declining,1336920
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1840,797,880,4.6,1820.0,2025-08-01,Stable,1466480
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3560,520,621,4.7,3330.0,2025-08-01,Declining,1851200
+Organic Vitamin C Radiance Serum,Health & Personal Care,770,1522,1823,4.3,840.0,2025-08-01,Increasing,1171940
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1700,700,788,4.2,1610.0,2025-08-01,Stable,1190000
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1440,1078,1192,4.2,1430.0,2025-08-01,Stable,1552320
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1240,936,1102,4.6,1330.0,2025-08-01,Increasing,1160640
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,9060,392,457,4.7,8880.0,2025-08-01,Stable,3551520
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,820,1237,1484,4.3,790.0,2025-08-01,Stable,1014340
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,910,1278,1358,4.4,900.0,2025-08-01,Stable,1162980
+Ergonomic Road Cycling Helmet,Sports & Fitness,2220,454,499,4.3,2080.0,2025-08-01,Declining,1007880
+Wireless Noise-Cancelling Headphones,Electronics,8050,702,789,4.5,8180.0,2025-09-01,Stable,5651100
+Ultra-Slim 14-inch Laptop,Electronics,57680,195,223,4.3,50350.0,2025-09-01,Declining,11247600
+Smartwatch Pro Series 5,Electronics,9870,568,683,4.5,10660.0,2025-09-01,Increasing,5606160
+4K Ultra-HD Smart OLED TV 55,Electronics,40820,356,411,4.9,47840.0,2025-09-01,Increasing,14531920
+Mechanical RGB Gaming Keyboard,Electronics,3380,763,819,4.3,3400.0,2025-09-01,Stable,2578940
+True Wireless Earbuds ANC,Electronics,2900,1114,1223,4.4,3060.0,2025-09-01,Increasing,3230600
+Portable Bluetooth Speaker 20W,Electronics,2500,904,990,4.3,2410.0,2025-09-01,Stable,2260000
+1TB High-Speed External SSD,Electronics,6510,488,589,4.7,6950.0,2025-09-01,Increasing,3176880
+Premium Cotton Oxford Casual Shirt,Fashion,1500,1284,1435,4.4,1690.0,2025-09-01,Increasing,1926000
+Pro Running Athletic Shoes,Fashion,3140,905,1042,4.5,3290.0,2025-09-01,Stable,2841700
+Waterproof All-Weather Windbreaker,Fashion,2940,768,809,4.3,3150.0,2025-09-01,Increasing,2257920
+Slim-Fit Stretch Denim Jeans,Fashion,1900,1007,1110,4.1,2090.0,2025-09-01,Increasing,1913300
+Polarized UV Aviator Sunglasses,Fashion,1230,1162,1264,4.5,1400.0,2025-09-01,Increasing,1429260
+Genuine Leather Bifold Wallet,Fashion,940,1012,1163,4.2,960.0,2025-09-01,Stable,951280
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4750,773,876,4.5,5620.0,2025-09-01,Increasing,3671750
+Robot Vacuum & Mop Cleaner,Home & Kitchen,20120,379,426,4.5,20280.0,2025-09-01,Stable,7625480
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8920,502,532,4.6,9360.0,2025-09-01,Stable,4477840
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3930,581,674,4.3,4140.0,2025-09-01,Increasing,2283330
+True HEPA Air Purifier Room,Home & Kitchen,6930,575,601,4.6,7190.0,2025-09-01,Stable,3984750
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1620,975,1036,4.3,1750.0,2025-09-01,Increasing,1579500
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1980,794,892,4.8,1910.0,2025-09-01,Stable,1572120
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3440,498,600,4.6,3210.0,2025-09-01,Declining,1713120
+Organic Vitamin C Radiance Serum,Health & Personal Care,750,1534,1742,4.3,730.0,2025-09-01,Stable,1150500
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1660,715,857,4.5,1720.0,2025-09-01,Stable,1186900
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1410,875,1056,4.4,1310.0,2025-09-01,Declining,1233750
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1230,1012,1055,4.8,1200.0,2025-09-01,Stable,1244760
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,8520,414,499,4.7,9550.0,2025-09-01,Increasing,3527280
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,800,1607,1773,4.4,910.0,2025-09-01,Increasing,1285600
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,880,1163,1232,4.2,940.0,2025-09-01,Increasing,1023440
+Ergonomic Road Cycling Helmet,Sports & Fitness,2270,482,549,4.4,2140.0,2025-09-01,Declining,1094140
+Wireless Noise-Cancelling Headphones,Electronics,8250,814,950,4.5,8560.0,2025-10-01,Increasing,6715500
+Ultra-Slim 14-inch Laptop,Electronics,56300,240,282,4.2,50360.0,2025-10-01,Increasing,13512000
+Smartwatch Pro Series 5,Electronics,9410,713,795,4.4,9430.0,2025-10-01,Increasing,6709330
+4K Ultra-HD Smart OLED TV 55,Electronics,42570,441,496,4.8,47280.0,2025-10-01,Increasing,18773370
+Mechanical RGB Gaming Keyboard,Electronics,3350,983,1123,4.3,3370.0,2025-10-01,Increasing,3293050
+True Wireless Earbuds ANC,Electronics,2970,1701,1784,4.7,3250.0,2025-10-01,Increasing,5051970
+Portable Bluetooth Speaker 20W,Electronics,2570,985,1050,4.1,2400.0,2025-10-01,Increasing,2531450
+1TB High-Speed External SSD,Electronics,6140,806,887,5.0,7240.0,2025-10-01,Increasing,4948840
+Premium Cotton Oxford Casual Shirt,Fashion,1520,1569,1758,4.5,1670.0,2025-10-01,Increasing,2384880
+Pro Running Athletic Shoes,Fashion,3160,1295,1415,4.8,3540.0,2025-10-01,Increasing,4092200
+Waterproof All-Weather Windbreaker,Fashion,2740,670,815,4.4,2620.0,2025-10-01,Increasing,1835800
+Slim-Fit Stretch Denim Jeans,Fashion,1980,1099,1276,4.1,2040.0,2025-10-01,Increasing,2176020
+Polarized UV Aviator Sunglasses,Fashion,1270,1125,1349,4.4,1400.0,2025-10-01,Increasing,1428750
+Genuine Leather Bifold Wallet,Fashion,1010,1264,1536,4.3,1080.0,2025-10-01,Increasing,1276640
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4740,1087,1245,4.8,5660.0,2025-10-01,Increasing,5152380
+Robot Vacuum & Mop Cleaner,Home & Kitchen,19250,422,455,4.3,18230.0,2025-10-01,Increasing,8123500
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8590,623,689,4.5,8650.0,2025-10-01,Increasing,5351570
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3810,805,883,4.4,4080.0,2025-10-01,Increasing,3067050
+True HEPA Air Purifier Room,Home & Kitchen,6960,643,710,4.4,7070.0,2025-10-01,Increasing,4475280
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1670,920,1085,4.2,1510.0,2025-10-01,Increasing,1536400
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1970,946,1008,4.7,1990.0,2025-10-01,Stable,1863620
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3640,521,589,4.4,3310.0,2025-10-01,Declining,1896440
+Organic Vitamin C Radiance Serum,Health & Personal Care,830,1482,1654,4.4,850.0,2025-10-01,Stable,1230060
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1780,696,825,4.5,1910.0,2025-10-01,Increasing,1238880
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1340,1109,1183,4.1,1500.0,2025-10-01,Increasing,1486060
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1220,1050,1178,4.8,1220.0,2025-10-01,Stable,1281000
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,8750,465,502,4.9,9240.0,2025-10-01,Increasing,4068750
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,770,1252,1465,4.4,800.0,2025-10-01,Stable,964040
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,920,1309,1543,4.5,1020.0,2025-10-01,Increasing,1204280
+Ergonomic Road Cycling Helmet,Sports & Fitness,2300,504,596,4.2,2460.0,2025-10-01,Increasing,1159200
+Wireless Noise-Cancelling Headphones,Electronics,7830,955,1158,4.6,8670.0,2025-11-01,Increasing,7477650
+Ultra-Slim 14-inch Laptop,Electronics,56210,294,337,4.5,51290.0,2025-11-01,Increasing,16525740
+Smartwatch Pro Series 5,Electronics,9760,781,896,4.5,9190.0,2025-11-01,Increasing,7622560
+4K Ultra-HD Smart OLED TV 55,Electronics,42540,487,539,4.7,45910.0,2025-11-01,Increasing,20716980
+Mechanical RGB Gaming Keyboard,Electronics,3440,940,1128,4.1,3450.0,2025-11-01,Increasing,3233600
+True Wireless Earbuds ANC,Electronics,3010,1335,1610,4.7,3010.0,2025-11-01,Increasing,4018350
+Portable Bluetooth Speaker 20W,Electronics,2510,1240,1329,4.4,2560.0,2025-11-01,Increasing,3112400
+1TB High-Speed External SSD,Electronics,6300,704,847,4.9,7110.0,2025-11-01,Increasing,4435200
+Premium Cotton Oxford Casual Shirt,Fashion,1420,1629,1825,4.4,1450.0,2025-11-01,Increasing,2313180
+Pro Running Athletic Shoes,Fashion,3260,1020,1158,4.7,3030.0,2025-11-01,Increasing,3325200
+Waterproof All-Weather Windbreaker,Fashion,2750,981,1032,4.6,2720.0,2025-11-01,Increasing,2697750
+Slim-Fit Stretch Denim Jeans,Fashion,1920,1233,1326,4.2,1880.0,2025-11-01,Increasing,2367360
+Polarized UV Aviator Sunglasses,Fashion,1240,1279,1418,4.5,1280.0,2025-11-01,Increasing,1585960
+Genuine Leather Bifold Wallet,Fashion,960,1230,1493,4.3,970.0,2025-11-01,Increasing,1180800
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4710,1079,1134,4.7,5480.0,2025-11-01,Increasing,5082090
+Robot Vacuum & Mop Cleaner,Home & Kitchen,19370,460,491,4.2,19830.0,2025-11-01,Increasing,8910200
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8160,546,657,4.5,9250.0,2025-11-01,Increasing,4455360
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3880,639,693,4.0,3830.0,2025-11-01,Increasing,2479320
+True HEPA Air Purifier Room,Home & Kitchen,7480,613,672,4.4,6720.0,2025-11-01,Increasing,4585240
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1670,936,1089,4.4,1440.0,2025-11-01,Increasing,1563120
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1840,804,868,4.6,1790.0,2025-11-01,Stable,1479360
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3460,561,632,4.5,3790.0,2025-11-01,Increasing,1941060
+Organic Vitamin C Radiance Serum,Health & Personal Care,750,1353,1430,4.0,720.0,2025-11-01,Stable,1014750
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1600,886,986,4.5,1790.0,2025-11-01,Increasing,1417600
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1460,909,949,4.0,1250.0,2025-11-01,Declining,1327140
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1160,1002,1114,4.6,1260.0,2025-11-01,Increasing,1162320
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,8920,378,449,4.6,10190.0,2025-11-01,Increasing,3371760
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,770,1495,1664,4.5,760.0,2025-11-01,Stable,1151150
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,900,1110,1208,4.6,820.0,2025-11-01,Declining,999000
+Ergonomic Road Cycling Helmet,Sports & Fitness,2300,476,536,4.4,2070.0,2025-11-01,Declining,1094800
+Wireless Noise-Cancelling Headphones,Electronics,7660,1039,1184,4.7,9010.0,2025-12-01,Increasing,7958740
+Ultra-Slim 14-inch Laptop,Electronics,55640,292,328,4.6,56200.0,2025-12-01,Increasing,16246880
+Smartwatch Pro Series 5,Electronics,10290,660,762,4.3,9990.0,2025-12-01,Increasing,6791400
+4K Ultra-HD Smart OLED TV 55,Electronics,44000,417,442,4.6,43650.0,2025-12-01,Increasing,18348000
+Mechanical RGB Gaming Keyboard,Electronics,3630,1203,1296,4.3,3870.0,2025-12-01,Increasing,4366890
+True Wireless Earbuds ANC,Electronics,2830,1269,1340,4.3,2690.0,2025-12-01,Increasing,3591270
+Portable Bluetooth Speaker 20W,Electronics,2500,1109,1270,4.2,2520.0,2025-12-01,Increasing,2772500
+1TB High-Speed External SSD,Electronics,6660,674,755,4.7,7350.0,2025-12-01,Increasing,4488840
+Premium Cotton Oxford Casual Shirt,Fashion,1460,1760,2010,4.5,1630.0,2025-12-01,Increasing,2569600
+Pro Running Athletic Shoes,Fashion,3430,1084,1182,4.7,3360.0,2025-12-01,Increasing,3718120
+Waterproof All-Weather Windbreaker,Fashion,2980,774,819,4.4,2790.0,2025-12-01,Increasing,2306520
+Slim-Fit Stretch Denim Jeans,Fashion,1920,1062,1172,4.1,1750.0,2025-12-01,Increasing,2039040
+Polarized UV Aviator Sunglasses,Fashion,1230,1445,1645,4.5,1440.0,2025-12-01,Increasing,1777350
+Genuine Leather Bifold Wallet,Fashion,1050,1353,1604,4.4,1050.0,2025-12-01,Increasing,1420650
+Digital Air Fryer Pro 5.5L,Home & Kitchen,5180,817,865,4.8,4950.0,2025-12-01,Stable,4232060
+Robot Vacuum & Mop Cleaner,Home & Kitchen,18970,412,438,4.7,21400.0,2025-12-01,Increasing,7815640
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8750,472,505,4.5,8670.0,2025-12-01,Stable,4130000
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3760,592,633,4.4,3700.0,2025-12-01,Stable,2225920
+True HEPA Air Purifier Room,Home & Kitchen,7130,460,539,4.6,6750.0,2025-12-01,Stable,3279800
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1530,1028,1112,4.5,1550.0,2025-12-01,Stable,1572840
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1920,927,969,4.7,1980.0,2025-12-01,Stable,1779840
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3530,503,581,4.4,3190.0,2025-12-01,Declining,1775590
+Organic Vitamin C Radiance Serum,Health & Personal Care,810,1347,1437,4.3,720.0,2025-12-01,Declining,1091070
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1650,802,899,4.4,1780.0,2025-12-01,Increasing,1323300
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1360,1108,1195,4.3,1310.0,2025-12-01,Stable,1506880
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1230,1053,1112,4.7,1260.0,2025-12-01,Stable,1295190
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,9120,436,463,4.8,9230.0,2025-12-01,Stable,3976320
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,800,1325,1586,4.3,780.0,2025-12-01,Stable,1060000
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,890,1132,1204,4.5,800.0,2025-12-01,Declining,1007480
+Ergonomic Road Cycling Helmet,Sports & Fitness,2230,618,663,4.3,2570.0,2025-12-01,Increasing,1378140
+Wireless Noise-Cancelling Headphones,Electronics,7530,802,933,4.5,9040.0,2026-01-01,Increasing,6039060
+Ultra-Slim 14-inch Laptop,Electronics,56980,224,250,4.6,50010.0,2026-01-01,Declining,12763520
+Smartwatch Pro Series 5,Electronics,9510,575,636,4.4,9430.0,2026-01-01,Stable,5468250
+4K Ultra-HD Smart OLED TV 55,Electronics,41820,317,384,4.7,41190.0,2026-01-01,Stable,13256940
+Mechanical RGB Gaming Keyboard,Electronics,3640,862,1019,4.4,3850.0,2026-01-01,Increasing,3137680
+True Wireless Earbuds ANC,Electronics,2850,1055,1279,4.7,2830.0,2026-01-01,Stable,3006750
+Portable Bluetooth Speaker 20W,Electronics,2510,891,952,4.2,2850.0,2026-01-01,Increasing,2236410
+1TB High-Speed External SSD,Electronics,6540,491,518,4.9,5910.0,2026-01-01,Declining,3211140
+Premium Cotton Oxford Casual Shirt,Fashion,1520,1278,1452,4.3,1640.0,2026-01-01,Increasing,1942560
+Pro Running Athletic Shoes,Fashion,3220,997,1103,4.7,3280.0,2026-01-01,Stable,3210340
+Waterproof All-Weather Windbreaker,Fashion,3010,714,777,4.6,2890.0,2026-01-01,Stable,2149140
+Slim-Fit Stretch Denim Jeans,Fashion,1830,949,1086,4.3,1920.0,2026-01-01,Stable,1736670
+Polarized UV Aviator Sunglasses,Fashion,1290,1082,1215,4.5,1360.0,2026-01-01,Increasing,1395780
+Genuine Leather Bifold Wallet,Fashion,1010,942,1082,4.3,900.0,2026-01-01,Declining,951420
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4960,704,813,4.6,4460.0,2026-01-01,Declining,3491840
+Robot Vacuum & Mop Cleaner,Home & Kitchen,19860,315,367,4.3,18620.0,2026-01-01,Declining,6255900
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8180,523,581,4.6,8620.0,2026-01-01,Increasing,4278140
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3790,552,630,4.2,3630.0,2026-01-01,Stable,2092080
+True HEPA Air Purifier Room,Home & Kitchen,6930,598,635,4.5,7590.0,2026-01-01,Increasing,4144140
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1590,1007,1201,4.3,1700.0,2026-01-01,Increasing,1601130
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1840,1270,1380,4.4,1870.0,2026-01-01,Increasing,2336800
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3520,849,890,4.3,3360.0,2026-01-01,Increasing,2988480
+Organic Vitamin C Radiance Serum,Health & Personal Care,820,1632,1970,4.2,700.0,2026-01-01,Increasing,1338240
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1710,1030,1179,4.4,1800.0,2026-01-01,Increasing,1761300
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1390,1413,1702,4.2,1370.0,2026-01-01,Increasing,1964070
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1140,1616,1769,4.6,1170.0,2026-01-01,Increasing,1842240
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,9130,633,668,4.8,8770.0,2026-01-01,Increasing,5779290
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,800,2115,2527,4.4,880.0,2026-01-01,Increasing,1692000
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,930,1396,1588,4.4,810.0,2026-01-01,Increasing,1298280
+Ergonomic Road Cycling Helmet,Sports & Fitness,2240,724,876,4.3,2310.0,2026-01-01,Increasing,1621760
+Wireless Noise-Cancelling Headphones,Electronics,7630,865,922,4.8,8200.0,2026-02-01,Increasing,6599950
+Ultra-Slim 14-inch Laptop,Electronics,55890,223,260,4.4,54550.0,2026-02-01,Stable,12463470
+Smartwatch Pro Series 5,Electronics,9740,751,799,4.6,10850.0,2026-02-01,Increasing,7314740
+4K Ultra-HD Smart OLED TV 55,Electronics,44750,316,350,4.7,42660.0,2026-02-01,Stable,14141000
+Mechanical RGB Gaming Keyboard,Electronics,3430,794,942,4.4,3630.0,2026-02-01,Increasing,2723420
+True Wireless Earbuds ANC,Electronics,2960,1037,1194,4.6,2750.0,2026-02-01,Declining,3069520
+Portable Bluetooth Speaker 20W,Electronics,2390,755,910,4.4,2220.0,2026-02-01,Declining,1804450
+1TB High-Speed External SSD,Electronics,6400,568,628,5.0,6240.0,2026-02-01,Stable,3635200
+Premium Cotton Oxford Casual Shirt,Fashion,1470,1139,1356,4.3,1400.0,2026-02-01,Stable,1674330
+Pro Running Athletic Shoes,Fashion,3280,878,919,4.6,2930.0,2026-02-01,Declining,2879840
+Waterproof All-Weather Windbreaker,Fashion,2850,534,649,4.4,2580.0,2026-02-01,Declining,1521900
+Slim-Fit Stretch Denim Jeans,Fashion,1940,947,1001,4.1,1900.0,2026-02-01,Stable,1837180
+Polarized UV Aviator Sunglasses,Fashion,1240,1239,1324,4.6,1470.0,2026-02-01,Increasing,1536360
+Genuine Leather Bifold Wallet,Fashion,1050,1044,1194,4.2,950.0,2026-02-01,Declining,1096200
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4910,744,830,4.6,4840.0,2026-02-01,Stable,3653040
+Robot Vacuum & Mop Cleaner,Home & Kitchen,20480,354,410,4.4,21930.0,2026-02-01,Increasing,7249920
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8230,475,497,4.6,7910.0,2026-02-01,Stable,3909250
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3800,509,606,4.2,3690.0,2026-02-01,Stable,1934200
+True HEPA Air Purifier Room,Home & Kitchen,7220,575,610,4.2,7610.0,2026-02-01,Increasing,4151500
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1610,958,1130,4.4,1640.0,2026-02-01,Stable,1542380
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1870,935,979,4.9,1690.0,2026-02-01,Increasing,1748450
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3640,647,687,4.3,3740.0,2026-02-01,Increasing,2355080
+Organic Vitamin C Radiance Serum,Health & Personal Care,760,1864,1977,4.3,870.0,2026-02-01,Increasing,1416640
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1770,780,815,4.4,1560.0,2026-02-01,Increasing,1380600
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1390,1048,1235,4.0,1550.0,2026-02-01,Increasing,1456720
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1230,1149,1293,4.9,1180.0,2026-02-01,Increasing,1413270
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,9030,539,581,4.8,9940.0,2026-02-01,Increasing,4867170
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,800,1498,1793,4.4,900.0,2026-02-01,Increasing,1198400
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,930,1471,1549,4.6,890.0,2026-02-01,Increasing,1368030
+Ergonomic Road Cycling Helmet,Sports & Fitness,2170,563,611,3.9,2310.0,2026-02-01,Increasing,1221710
+Wireless Noise-Cancelling Headphones,Electronics,8130,645,751,4.5,7320.0,2026-03-01,Declining,5243850
+Ultra-Slim 14-inch Laptop,Electronics,52970,248,258,4.3,62090.0,2026-03-01,Increasing,13136560
+Smartwatch Pro Series 5,Electronics,10140,633,753,4.5,10950.0,2026-03-01,Increasing,6418620
+4K Ultra-HD Smart OLED TV 55,Electronics,43980,383,413,4.8,46440.0,2026-03-01,Increasing,16844340
+Mechanical RGB Gaming Keyboard,Electronics,3610,738,841,4.3,3640.0,2026-03-01,Stable,2664180
+True Wireless Earbuds ANC,Electronics,2950,852,1020,4.4,2690.0,2026-03-01,Declining,2513400
+Portable Bluetooth Speaker 20W,Electronics,2570,781,877,4.0,2810.0,2026-03-01,Increasing,2007170
+1TB High-Speed External SSD,Electronics,6680,469,565,4.8,6910.0,2026-03-01,Stable,3132920
+Premium Cotton Oxford Casual Shirt,Fashion,1480,1290,1358,4.2,1430.0,2026-03-01,Stable,1909200
+Pro Running Athletic Shoes,Fashion,3250,931,1050,4.5,3680.0,2026-03-01,Increasing,3025750
+Waterproof All-Weather Windbreaker,Fashion,2800,709,778,4.4,3030.0,2026-03-01,Increasing,1985200
+Slim-Fit Stretch Denim Jeans,Fashion,1810,1038,1176,4.1,2110.0,2026-03-01,Increasing,1878780
+Polarized UV Aviator Sunglasses,Fashion,1300,1024,1113,4.5,1350.0,2026-03-01,Stable,1331200
+Genuine Leather Bifold Wallet,Fashion,1030,1108,1241,4.1,1090.0,2026-03-01,Increasing,1141240
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4780,760,906,4.7,5410.0,2026-03-01,Increasing,3632800
+Robot Vacuum & Mop Cleaner,Home & Kitchen,20180,299,346,4.2,17880.0,2026-03-01,Declining,6033820
+Espresso Coffee Machine 15-Bar,Home & Kitchen,7990,489,596,4.6,8610.0,2026-03-01,Increasing,3907110
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3670,553,663,4.3,4070.0,2026-03-01,Increasing,2029510
+True HEPA Air Purifier Room,Home & Kitchen,7150,558,591,4.4,6940.0,2026-03-01,Stable,3989700
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1580,1156,1210,4.5,1790.0,2026-03-01,Increasing,1826480
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1800,962,1047,4.3,2010.0,2026-03-01,Increasing,1731600
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3290,661,724,4.5,3230.0,2026-03-01,Increasing,2174690
+Organic Vitamin C Radiance Serum,Health & Personal Care,840,1535,1839,4.3,860.0,2026-03-01,Increasing,1289400
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1740,757,870,4.4,1780.0,2026-03-01,Increasing,1317180
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1460,956,1097,4.0,1410.0,2026-03-01,Increasing,1395760
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1180,978,1114,4.4,1070.0,2026-03-01,Increasing,1154040
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,9270,523,554,4.9,9910.0,2026-03-01,Increasing,4848210
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,770,1572,1825,4.3,840.0,2026-03-01,Increasing,1210440
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,860,1425,1628,4.4,940.0,2026-03-01,Increasing,1225500
+Ergonomic Road Cycling Helmet,Sports & Fitness,2340,561,652,4.4,2140.0,2026-03-01,Increasing,1312740
+Wireless Noise-Cancelling Headphones,Electronics,7840,676,721,4.6,7160.0,2026-04-01,Declining,5299840
+Ultra-Slim 14-inch Laptop,Electronics,51790,214,260,4.4,53820.0,2026-04-01,Stable,11083060
+Smartwatch Pro Series 5,Electronics,9540,566,627,4.1,9870.0,2026-04-01,Stable,5399640
+4K Ultra-HD Smart OLED TV 55,Electronics,40470,378,424,4.7,43030.0,2026-04-01,Increasing,15297660
+Mechanical RGB Gaming Keyboard,Electronics,3550,848,886,4.4,3360.0,2026-04-01,Stable,3010400
+True Wireless Earbuds ANC,Electronics,2860,1096,1175,4.6,2650.0,2026-04-01,Declining,3134560
+Portable Bluetooth Speaker 20W,Electronics,2380,798,915,4.2,2370.0,2026-04-01,Stable,1899240
+1TB High-Speed External SSD,Electronics,6110,623,651,5.0,6230.0,2026-04-01,Stable,3806530
+Premium Cotton Oxford Casual Shirt,Fashion,1550,1103,1248,4.3,1330.0,2026-04-01,Declining,1709650
+Pro Running Athletic Shoes,Fashion,3250,790,927,4.6,3160.0,2026-04-01,Stable,2567500
+Waterproof All-Weather Windbreaker,Fashion,2800,689,722,4.4,2920.0,2026-04-01,Stable,1929200
+Slim-Fit Stretch Denim Jeans,Fashion,1980,1122,1252,4.3,2060.0,2026-04-01,Stable,2221560
+Polarized UV Aviator Sunglasses,Fashion,1360,741,882,4.3,1170.0,2026-04-01,Declining,1007760
+Genuine Leather Bifold Wallet,Fashion,1010,1058,1259,4.1,1080.0,2026-04-01,Increasing,1068580
+Digital Air Fryer Pro 5.5L,Home & Kitchen,5150,768,884,4.9,5230.0,2026-04-01,Stable,3955200
+Robot Vacuum & Mop Cleaner,Home & Kitchen,20820,334,354,4.3,19110.0,2026-04-01,Declining,6953880
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8650,417,437,4.5,7620.0,2026-04-01,Declining,3607050
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3790,604,660,4.6,3580.0,2026-04-01,Stable,2289160
+True HEPA Air Purifier Room,Home & Kitchen,6920,531,603,4.5,6940.0,2026-04-01,Stable,3674520
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1510,964,1135,4.6,1480.0,2026-04-01,Stable,1455640
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1800,925,1091,4.5,2090.0,2026-04-01,Increasing,1665000
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3660,703,734,4.6,3980.0,2026-04-01,Increasing,2572980
+Organic Vitamin C Radiance Serum,Health & Personal Care,800,1460,1610,4.5,760.0,2026-04-01,Stable,1168000
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1780,704,743,4.2,1580.0,2026-04-01,Declining,1253120
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1460,1103,1309,4.3,1580.0,2026-04-01,Increasing,1610380
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1190,1066,1172,4.7,1280.0,2026-04-01,Increasing,1268540
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,9120,375,456,5.0,8300.0,2026-04-01,Declining,3420000
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,750,1482,1739,4.4,780.0,2026-04-01,Stable,1111500
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,910,1159,1391,4.6,840.0,2026-04-01,Declining,1054690
+Ergonomic Road Cycling Helmet,Sports & Fitness,2270,471,516,4.2,2040.0,2026-04-01,Declining,1069170
+Wireless Noise-Cancelling Headphones,Electronics,7620,746,903,4.7,7640.0,2026-05-01,Stable,5684520
+Ultra-Slim 14-inch Laptop,Electronics,56300,234,253,4.5,53710.0,2026-05-01,Stable,13174200
+Smartwatch Pro Series 5,Electronics,10410,597,698,4.2,11270.0,2026-05-01,Increasing,6214770
+4K Ultra-HD Smart OLED TV 55,Electronics,43090,331,388,4.8,41850.0,2026-05-01,Stable,14262790
+Mechanical RGB Gaming Keyboard,Electronics,3360,790,957,4.3,3910.0,2026-05-01,Increasing,2654400
+True Wireless Earbuds ANC,Electronics,2830,1020,1187,4.4,2780.0,2026-05-01,Stable,2886600
+Portable Bluetooth Speaker 20W,Electronics,2610,922,995,4.4,2580.0,2026-05-01,Stable,2406420
+1TB High-Speed External SSD,Electronics,6310,572,600,4.6,6320.0,2026-05-01,Stable,3609320
+Premium Cotton Oxford Casual Shirt,Fashion,1560,1344,1584,4.3,1480.0,2026-05-01,Increasing,2096640
+Pro Running Athletic Shoes,Fashion,3320,1104,1175,4.8,3060.0,2026-05-01,Increasing,3665280
+Waterproof All-Weather Windbreaker,Fashion,2790,765,816,4.1,2600.0,2026-05-01,Increasing,2134350
+Slim-Fit Stretch Denim Jeans,Fashion,1850,1287,1412,4.1,2010.0,2026-05-01,Increasing,2380950
+Polarized UV Aviator Sunglasses,Fashion,1240,1161,1407,4.3,1440.0,2026-05-01,Increasing,1439640
+Genuine Leather Bifold Wallet,Fashion,950,1299,1479,4.2,1080.0,2026-05-01,Increasing,1234050
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4990,597,728,4.6,4470.0,2026-05-01,Declining,2979030
+Robot Vacuum & Mop Cleaner,Home & Kitchen,20400,361,396,4.3,22630.0,2026-05-01,Increasing,7364400
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8680,479,521,4.4,9350.0,2026-05-01,Increasing,4157720
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3910,521,551,4.2,3520.0,2026-05-01,Declining,2037110
+True HEPA Air Purifier Room,Home & Kitchen,7510,579,634,4.4,8290.0,2026-05-01,Increasing,4348290
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1520,1071,1270,4.6,1630.0,2026-05-01,Increasing,1627920
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1950,867,942,4.7,1960.0,2026-05-01,Stable,1690650
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3580,490,550,4.3,3170.0,2026-05-01,Declining,1754200
+Organic Vitamin C Radiance Serum,Health & Personal Care,780,1778,2010,4.4,900.0,2026-05-01,Increasing,1386840
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1770,856,910,4.5,1800.0,2026-05-01,Stable,1515120
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1360,1128,1179,4.1,1520.0,2026-05-01,Increasing,1534080
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1240,1069,1190,4.6,1270.0,2026-05-01,Stable,1325560
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,9400,430,466,4.7,9080.0,2026-05-01,Stable,4042000
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,780,1263,1537,4.4,710.0,2026-05-01,Declining,985140
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,910,1384,1481,4.3,1020.0,2026-05-01,Increasing,1259440
+Ergonomic Road Cycling Helmet,Sports & Fitness,2300,531,596,4.3,2600.0,2026-05-01,Increasing,1221300
+Wireless Noise-Cancelling Headphones,Electronics,8150,784,896,4.7,8830.0,2026-06-01,Increasing,6389600
+Ultra-Slim 14-inch Laptop,Electronics,52500,236,273,4.4,60770.0,2026-06-01,Increasing,12390000
+Smartwatch Pro Series 5,Electronics,9720,659,726,4.5,11060.0,2026-06-01,Increasing,6405480
+4K Ultra-HD Smart OLED TV 55,Electronics,43120,363,442,4.8,47150.0,2026-06-01,Increasing,15652560
+Mechanical RGB Gaming Keyboard,Electronics,3550,638,734,4.1,3130.0,2026-06-01,Declining,2264900
+True Wireless Earbuds ANC,Electronics,3020,1032,1177,4.5,2900.0,2026-06-01,Stable,3116640
+Portable Bluetooth Speaker 20W,Electronics,2370,899,1038,4.1,2710.0,2026-06-01,Increasing,2130630
+1TB High-Speed External SSD,Electronics,6150,564,620,4.6,6350.0,2026-06-01,Stable,3468600
+Premium Cotton Oxford Casual Shirt,Fashion,1520,1477,1771,4.3,1570.0,2026-06-01,Increasing,2245040
+Pro Running Athletic Shoes,Fashion,3200,1082,1130,4.4,3140.0,2026-06-01,Increasing,3462400
+Waterproof All-Weather Windbreaker,Fashion,2750,909,990,4.4,2940.0,2026-06-01,Increasing,2499750
+Slim-Fit Stretch Denim Jeans,Fashion,1870,1028,1199,4.0,1840.0,2026-06-01,Increasing,1922360
+Polarized UV Aviator Sunglasses,Fashion,1250,1345,1407,4.4,1310.0,2026-06-01,Increasing,1681250
+Genuine Leather Bifold Wallet,Fashion,1010,1142,1198,4.1,900.0,2026-06-01,Increasing,1153420
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4860,753,878,4.9,4520.0,2026-06-01,Declining,3659580
+Robot Vacuum & Mop Cleaner,Home & Kitchen,18830,419,458,4.6,22620.0,2026-06-01,Increasing,7889770
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8650,508,540,4.5,8830.0,2026-06-01,Stable,4394200
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3970,489,514,4.2,3450.0,2026-06-01,Declining,1941330
+True HEPA Air Purifier Room,Home & Kitchen,7450,603,659,4.5,8100.0,2026-06-01,Increasing,4492350
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1570,819,957,4.2,1410.0,2026-06-01,Declining,1285830
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1880,927,1014,4.7,2140.0,2026-06-01,Increasing,1742760
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3670,461,524,4.5,3170.0,2026-06-01,Declining,1691870
+Organic Vitamin C Radiance Serum,Health & Personal Care,760,1581,1795,4.3,860.0,2026-06-01,Increasing,1201560
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1730,699,772,4.5,1500.0,2026-06-01,Declining,1209270
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1410,949,1007,4.1,1320.0,2026-06-01,Declining,1338090
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1220,833,980,4.7,1060.0,2026-06-01,Declining,1016260
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,8730,433,479,4.8,8500.0,2026-06-01,Stable,3780090
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,810,1393,1486,4.3,720.0,2026-06-01,Declining,1128330
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,920,1271,1402,4.5,980.0,2026-06-01,Increasing,1169320
+Ergonomic Road Cycling Helmet,Sports & Fitness,2350,523,631,4.4,2460.0,2026-06-01,Stable,1229050
+Wireless Noise-Cancelling Headphones,Electronics,7850,774,888,4.7,8950.0,2026-07-01,Increasing,6075900
+Ultra-Slim 14-inch Laptop,Electronics,57120,273,309,4.8,57930.0,2026-07-01,Stable,15593760
+Smartwatch Pro Series 5,Electronics,10090,556,610,4.3,9440.0,2026-07-01,Declining,5610040
+4K Ultra-HD Smart OLED TV 55,Electronics,44850,315,366,4.9,38550.0,2026-07-01,Declining,14127750
+Mechanical RGB Gaming Keyboard,Electronics,3460,677,762,4.3,3100.0,2026-07-01,Declining,2342420
+True Wireless Earbuds ANC,Electronics,3120,895,1020,4.3,2720.0,2026-07-01,Declining,2792400
+Portable Bluetooth Speaker 20W,Electronics,2530,706,834,4.2,2370.0,2026-07-01,Declining,1786180
+1TB High-Speed External SSD,Electronics,6580,615,672,4.8,7210.0,2026-07-01,Increasing,4046700
+Premium Cotton Oxford Casual Shirt,Fashion,1430,1206,1348,4.2,1430.0,2026-07-01,Stable,1724580
+Pro Running Athletic Shoes,Fashion,3230,972,1045,4.5,3210.0,2026-07-01,Stable,3139560
+Waterproof All-Weather Windbreaker,Fashion,2820,728,817,4.4,3240.0,2026-07-01,Increasing,2052960
+Slim-Fit Stretch Denim Jeans,Fashion,1980,913,1043,4.1,2100.0,2026-07-01,Increasing,1807740
+Polarized UV Aviator Sunglasses,Fashion,1300,1104,1178,4.5,1310.0,2026-07-01,Stable,1435200
+Genuine Leather Bifold Wallet,Fashion,1030,1134,1252,4.2,1070.0,2026-07-01,Stable,1168020
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4790,765,914,4.8,5270.0,2026-07-01,Increasing,3664350
+Robot Vacuum & Mop Cleaner,Home & Kitchen,19160,342,371,4.3,17610.0,2026-07-01,Declining,6552720
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8470,392,460,4.5,7840.0,2026-07-01,Declining,3320240
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3790,492,594,4.1,3940.0,2026-07-01,Stable,1864680
+True HEPA Air Purifier Room,Home & Kitchen,7180,517,588,4.6,6870.0,2026-07-01,Stable,3712060
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1600,1099,1302,4.7,1700.0,2026-07-01,Increasing,1758400
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1890,789,944,4.6,1870.0,2026-07-01,Stable,1491210
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3520,504,600,4.6,3190.0,2026-07-01,Declining,1774080
+Organic Vitamin C Radiance Serum,Health & Personal Care,810,1402,1573,4.4,750.0,2026-07-01,Declining,1135620
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1680,663,799,4.4,1500.0,2026-07-01,Declining,1113840
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1390,997,1214,4.4,1440.0,2026-07-01,Stable,1385830
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1220,1179,1261,4.8,1220.0,2026-07-01,Stable,1438380
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,9290,399,472,4.9,9050.0,2026-07-01,Stable,3706710
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,830,1344,1618,4.3,890.0,2026-07-01,Increasing,1115520
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,880,1335,1416,4.5,980.0,2026-07-01,Increasing,1174800
+Ergonomic Road Cycling Helmet,Sports & Fitness,2260,542,654,4.3,2350.0,2026-07-01,Stable,1224920
+Wireless Noise-Cancelling Headphones,Electronics,8090,719,749,4.7,7190.0,2026-08-01,Declining,5816710
+Ultra-Slim 14-inch Laptop,Electronics,55080,210,242,4.4,52990.0,2026-08-01,Stable,11566800
+Smartwatch Pro Series 5,Electronics,9810,571,626,4.3,8980.0,2026-08-01,Declining,5601510
+4K Ultra-HD Smart OLED TV 55,Electronics,43770,266,292,4.4,37930.0,2026-08-01,Declining,11642820
+Mechanical RGB Gaming Keyboard,Electronics,3480,699,843,4.4,3080.0,2026-08-01,Declining,2432520
+True Wireless Earbuds ANC,Electronics,3070,1180,1275,4.6,3090.0,2026-08-01,Stable,3622600
+Portable Bluetooth Speaker 20W,Electronics,2570,886,959,4.2,2540.0,2026-08-01,Stable,2277020
+1TB High-Speed External SSD,Electronics,6230,560,605,4.7,6050.0,2026-08-01,Stable,3488800
+Premium Cotton Oxford Casual Shirt,Fashion,1560,1446,1605,4.5,1610.0,2026-08-01,Stable,2255760
+Pro Running Athletic Shoes,Fashion,3330,895,973,4.7,3040.0,2026-08-01,Declining,2980350
+Waterproof All-Weather Windbreaker,Fashion,2810,599,681,4.3,2700.0,2026-08-01,Stable,1683190
+Slim-Fit Stretch Denim Jeans,Fashion,1970,799,962,4.0,1920.0,2026-08-01,Stable,1574030
+Polarized UV Aviator Sunglasses,Fashion,1320,1022,1191,4.6,1270.0,2026-08-01,Stable,1349040
+Genuine Leather Bifold Wallet,Fashion,1020,1162,1278,4.3,950.0,2026-08-01,Declining,1185240
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4880,752,833,4.8,4750.0,2026-08-01,Stable,3669760
+Robot Vacuum & Mop Cleaner,Home & Kitchen,19380,401,432,4.3,21040.0,2026-08-01,Increasing,7771380
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8700,428,486,4.6,7890.0,2026-08-01,Declining,3723600
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3580,544,577,4.2,3600.0,2026-08-01,Stable,1947520
+True HEPA Air Purifier Room,Home & Kitchen,7060,579,612,4.5,7480.0,2026-08-01,Increasing,4087740
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1660,1061,1106,4.4,1540.0,2026-08-01,Declining,1761260
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1960,795,954,4.7,2090.0,2026-08-01,Increasing,1558200
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3670,557,597,4.3,3380.0,2026-08-01,Declining,2044190
+Organic Vitamin C Radiance Serum,Health & Personal Care,830,1432,1645,4.2,910.0,2026-08-01,Increasing,1188560
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1740,752,825,4.4,1750.0,2026-08-01,Stable,1308480
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1350,956,1158,4.3,1240.0,2026-08-01,Declining,1290600
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1240,1136,1252,4.9,1250.0,2026-08-01,Stable,1408640
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,9310,435,493,4.8,9290.0,2026-08-01,Stable,4049850
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,810,1335,1478,4.4,780.0,2026-08-01,Stable,1081350
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,940,1362,1420,4.5,1010.0,2026-08-01,Increasing,1280280
+Ergonomic Road Cycling Helmet,Sports & Fitness,2410,520,565,4.0,2410.0,2026-08-01,Stable,1253200
+Wireless Noise-Cancelling Headphones,Electronics,8040,700,802,4.8,7150.0,2026-09-01,Declining,5628000
+Ultra-Slim 14-inch Laptop,Electronics,57400,215,235,4.4,50790.0,2026-09-01,Declining,12341000
+Smartwatch Pro Series 5,Electronics,10170,619,685,4.3,10490.0,2026-09-01,Stable,6295230
+4K Ultra-HD Smart OLED TV 55,Electronics,41270,362,396,4.6,45720.0,2026-09-01,Increasing,14939740
+Mechanical RGB Gaming Keyboard,Electronics,3610,858,920,4.5,3230.0,2026-09-01,Declining,3097380
+True Wireless Earbuds ANC,Electronics,3140,1042,1189,4.6,3060.0,2026-09-01,Stable,3271880
+Portable Bluetooth Speaker 20W,Electronics,2390,919,1018,4.2,2570.0,2026-09-01,Increasing,2196410
+1TB High-Speed External SSD,Electronics,6360,452,514,4.8,5810.0,2026-09-01,Declining,2874720
+Premium Cotton Oxford Casual Shirt,Fashion,1420,1446,1532,4.2,1560.0,2026-09-01,Increasing,2053320
+Pro Running Athletic Shoes,Fashion,3170,1035,1110,4.7,3540.0,2026-09-01,Increasing,3280950
+Waterproof All-Weather Windbreaker,Fashion,3040,619,699,4.4,2570.0,2026-09-01,Declining,1881760
+Slim-Fit Stretch Denim Jeans,Fashion,1960,783,944,4.2,1700.0,2026-09-01,Declining,1534680
+Polarized UV Aviator Sunglasses,Fashion,1360,935,1101,4.5,1420.0,2026-09-01,Stable,1271600
+Genuine Leather Bifold Wallet,Fashion,960,991,1188,4.1,1000.0,2026-09-01,Stable,951360
+Digital Air Fryer Pro 5.5L,Home & Kitchen,4790,755,810,4.7,4590.0,2026-09-01,Stable,3616450
+Robot Vacuum & Mop Cleaner,Home & Kitchen,19520,325,388,4.5,19160.0,2026-09-01,Stable,6344000
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8230,470,504,4.5,8260.0,2026-09-01,Stable,3868100
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3630,578,687,4.3,3680.0,2026-09-01,Stable,2098140
+True HEPA Air Purifier Room,Home & Kitchen,6930,571,681,4.6,7340.0,2026-09-01,Increasing,3957030
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1610,899,991,4.2,1620.0,2026-09-01,Stable,1447390
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1840,888,950,4.6,1910.0,2026-09-01,Stable,1633920
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3310,603,654,4.4,3460.0,2026-09-01,Stable,1995930
+Organic Vitamin C Radiance Serum,Health & Personal Care,800,1598,1785,4.4,840.0,2026-09-01,Stable,1278400
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1750,845,969,4.4,1930.0,2026-09-01,Increasing,1478750
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1350,1124,1199,4.2,1410.0,2026-09-01,Stable,1517400
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1170,1149,1327,4.9,1320.0,2026-09-01,Increasing,1344330
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,8910,459,543,4.8,9700.0,2026-09-01,Increasing,4089690
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,800,1480,1626,4.4,820.0,2026-09-01,Stable,1184000
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,870,1324,1471,4.7,920.0,2026-09-01,Increasing,1151880
+Ergonomic Road Cycling Helmet,Sports & Fitness,2210,462,546,4.2,2190.0,2026-09-01,Stable,1021020
+Wireless Noise-Cancelling Headphones,Electronics,8250,886,951,4.5,7630.0,2026-10-01,Increasing,7309500
+Ultra-Slim 14-inch Laptop,Electronics,53920,310,330,4.5,49640.0,2026-10-01,Increasing,16715200
+Smartwatch Pro Series 5,Electronics,10270,699,742,4.3,9250.0,2026-10-01,Increasing,7178730
+4K Ultra-HD Smart OLED TV 55,Electronics,41600,435,462,4.8,40780.0,2026-10-01,Increasing,18096000
+Mechanical RGB Gaming Keyboard,Electronics,3590,1004,1155,4.2,3650.0,2026-10-01,Increasing,3604360
+True Wireless Earbuds ANC,Electronics,2850,1460,1768,4.6,3020.0,2026-10-01,Increasing,4161000
+Portable Bluetooth Speaker 20W,Electronics,2430,1054,1191,4.2,2330.0,2026-10-01,Increasing,2561220
+1TB High-Speed External SSD,Electronics,6650,626,711,4.8,5980.0,2026-10-01,Increasing,4162900
+Premium Cotton Oxford Casual Shirt,Fashion,1510,1624,1924,4.2,1710.0,2026-10-01,Increasing,2452240
+Pro Running Athletic Shoes,Fashion,3110,1162,1304,4.8,3080.0,2026-10-01,Increasing,3613820
+Waterproof All-Weather Windbreaker,Fashion,2920,802,972,4.5,3240.0,2026-10-01,Increasing,2341840
+Slim-Fit Stretch Denim Jeans,Fashion,1900,1361,1615,4.6,1890.0,2026-10-01,Increasing,2585900
+Polarized UV Aviator Sunglasses,Fashion,1220,1254,1459,4.4,1290.0,2026-10-01,Increasing,1529880
+Genuine Leather Bifold Wallet,Fashion,960,1423,1627,4.2,980.0,2026-10-01,Increasing,1366080
+Digital Air Fryer Pro 5.5L,Home & Kitchen,5110,886,985,4.6,4560.0,2026-10-01,Increasing,4527460
+Robot Vacuum & Mop Cleaner,Home & Kitchen,20840,374,455,4.5,19610.0,2026-10-01,Increasing,7794160
+Espresso Coffee Machine 15-Bar,Home & Kitchen,8760,525,637,4.5,8640.0,2026-10-01,Increasing,4599000
+Stainless Steel 5-Piece Cookware,Home & Kitchen,3970,764,891,4.4,4000.0,2026-10-01,Increasing,3033080
+True HEPA Air Purifier Room,Home & Kitchen,7350,816,865,4.6,7710.0,2026-10-01,Increasing,5997600
+Ergonomic Memory Foam Bed Pillow,Home & Kitchen,1630,1173,1228,4.3,1520.0,2026-10-01,Increasing,1911990
+Sonic Electric Toothbrush Rechargeable,Health & Personal Care,1790,997,1154,4.7,2020.0,2026-10-01,Increasing,1784630
+Deep Tissue Percussion Massage Gun,Health & Personal Care,3420,549,641,4.7,3150.0,2026-10-01,Declining,1877580
+Organic Vitamin C Radiance Serum,Health & Personal Care,780,1501,1802,4.4,880.0,2026-10-01,Increasing,1170780
+Smart Bluetooth Body Fat Scale,Health & Personal Care,1630,812,850,4.4,1760.0,2026-10-01,Increasing,1323560
+Multi-Grooming Cordless Beard Trimmer,Health & Personal Care,1380,1125,1216,4.2,1410.0,2026-10-01,Stable,1552500
+Non-Slip Eco Alignment Yoga Mat,Sports & Fitness,1230,1109,1187,4.5,1240.0,2026-10-01,Stable,1364070
+Adjustable Quick-Select Dumbbell Pair,Sports & Fitness,9210,381,404,4.7,8050.0,2026-10-01,Declining,3509010
+Heavy Duty Resistance Bands 5-Set,Sports & Fitness,830,1590,1734,4.6,890.0,2026-10-01,Increasing,1319700
+Double-Wall Insulated Steel Flask 1L,Sports & Fitness,870,1238,1322,4.4,840.0,2026-10-01,Stable,1077060
+Ergonomic Road Cycling Helmet,Sports & Fitness,2190,543,631,4.2,2460.0,2026-10-01,Increasing,1189170
